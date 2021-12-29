@@ -1,0 +1,1856 @@
+word first_grade second_grade third_grade total
+1	the	122	215	295	632
+2	I	138	193	179	510
+3	you	123	180	161	464
+4	a	99	142	176	417
+5	to	35	168	204	407
+6	is	156	98	88	342
+7	in	35	113	88	236
+8	it	55	67	104	226
+9	and	44	72	98	214
+10	do	54	73	79	206
+11	my	46	95	50	191
+12	this	71	31	45	147
+13	he	56	61	21	138
+14	she	42	43	50	135
+15	what	30	60	41	131
+16	yes	54	34	38	126
+17	did	21	64	39	124
+18	her	22	39	58	119
+19	very	25	57	37	119
+20	like	37	49	29	115
+21	for	23	30	56	109
+22	was		43	66	109
+23	It’s	38	32	36	106
+24	your	36	35	32	103
+25	are	40	32	29	101
+26	that	20	22	57	99
+27	can	47	26	25	98
+28	have	24	26	48	98
+29	of	10	41	41	92
+30	with	15	49	26	90
+31	but	17	41	31	89
+32	We	8	43	36	87
+33	go	11	55	20	86
+34	English	38	25	22	85
+35	about	22	29	33	84
+36	how	19	20	44	83
+37	no	37	22	24	83
+38	me	9	21	50	80
+39	on	28	17	35	80
+40	play	38	23	13	74
+41	they	13	22	37	72
+42	there	4	36	28	68
+43	I’m	36	9	22	67
+44	when	9	25	32	66
+45	don’t	13	23	27	63
+46	Mr	14	13	33	60
+47	know	11	13	35	59
+48	many	13	16	29	58
+49	school	15	17	26	58
+50	at	19	13	22	54
+51	so	5	28	21	54
+52	does	28	16	8	52
+53	not	19	20	12	51
+54	an	10	18	22	50
+55	people	9	13	27	49
+56	want		30	19	49
+57	as		31	16	47
+58	Mike	15	22	9	46
+59	now	11	15	19	45
+60	tennis	18	26	1	45
+61	from	16	11	15	42
+62	oh	14	19	9	42
+63	one	19	10	12	41
+64	too	22	11	8	41
+65	his	7	21	12	40
+66	well	7	19	14	40
+67	why		15	25	40
+68	be	2	25	12	39
+69	Japanese	4	16	19	39
+70	some	3	24	12	39
+71	that’s	11	21	7	39
+72	will		20	19	39
+73	then	5	16	17	38
+74	good	7	20	10	37
+75	think		21	16	37
+76	them	6	12	18	36
+77	first	5	3	27	35
+78	soccer	16	10	8	34
+79	went	3	23	8	34
+80	by	4	5	24	33
+81	say	3	16	14	33
+82	us		14	19	33
+83	what’s	12	8	13	33
+84	car	16	12	4	32
+85	he’s	20	6	6	32
+86	Japan	3	18	10	31
+87	let’s	7	6	18	31
+88	much	10	14	7	31
+89	please	12	10	9	31
+90	said	3	13	15	31
+91	see	8	17	6	31
+92	thank-you	11	10	10	31
+93	which	7	7	17	31
+94	music	9	6	15	30
+95	OK	5	9	16	30
+96	speak	13	4	13	30
+97	than		29	1	30
+98	use	8	8	14	30
+99	who	4	8	18	30
+100	baseball	19	9	1	29
+101	father	10	11	8	29
+102	nice	12	15	2	29
+103	our	2	15	12	29
+104	really	10	11	8	29
+105	study	19	7	3	29
+106	teacher	1	25	3	29
+107	all	4	16	8	28
+108	him	12	10	6	28
+109	visit	1	14	13	28
+110	were		19	9	28
+111	here	6	4	17	27
+112	am	18	1	7	26
+113	friends	2	19	5	26
+114	how-about	6	16	4	26
+115	she’s	18	1	7	26
+116	Takeshi	13	5	8	26
+117	a-lot-of	4	14	7	25
+118	bag	11	8	6	25
+119	friend	13	8	4	25
+120	happy	2	6	17	25
+121	has	5	9	11	25
+122	last	2	11	12	25
+123	more		12	13	25
+124	mountain	2	3	20	25
+125	next	2	13	10	25
+126	student	15	5	5	25
+127	can’t	13	9	2	24
+128	high	6	6	12	24
+129	I’ll		18	6	24
+130	look-at	12	4	8	24
+131	mother	14	4	6	24
+132	two	12	5	7	24
+133	after	1	7	15	23
+134	brother	15	3	5	23
+135	get	7	11	5	23
+136	I’ve			23	23
+137	Jim	7	14	2	23
+138	name	13	4	6	23
+139	new	2	10	11	23
+140	song		2	21	23
+141	today	6	9	8	23
+142	tomorrow	1	14	8	23
+143	where	6	10	7	23
+144	year	2	8	13	23
+145	back	3	4	15	22
+146	day	9	4	9	22
+147	give		10	12	22
+148	meet	10	7	5	22
+149	come	3	10	8	21
+150	interesting	2	8	11	21
+151	Ken	7	10	4	21
+152	right	9	3	9	21
+153	Sunday	7	12	2	21
+154	uncle	10	6	5	21
+155	dog	1	8	11	20
+156	isn’t	10	5	5	20
+157	make	2	2	16	20
+158	team	1	13	6	20
+159	Brown	2	2	15	19
+160	children		17	2	19
+161	difficult	1	8	10	19
+162	family	3	15	1	19
+163	likes	8	8	3	19
+164	only	5	8	6	19
+165	park		10	9	19
+166	picture	6	5	8	19
+167	their	2	9	8	19
+168	watch	9	7	3	19
+169	years	3	5	11	19
+170	also		12	6	18
+171	ask		4	14	18
+172	beautiful	7	5	6	18
+173	been			18	18
+174	boy	8		10	18
+175	didn’t	8	8	2	18
+176	enjoy	9	4	5	18
+177	hard	1	13	4	18
+178	hi	9	8	1	18
+179	if		9	9	18
+180	junior	6	4	8	18
+181	long	3	5	10	18
+182	popular	3	12	3	18
+183	spring	3	4	11	18
+184	tell	1	4	13	18
+185	because	1	5	11	17
+186	best		15	2	17
+187	bird		1	16	17
+188	favorite	2	6	9	17
+189	great	4	9	4	17
+190	had		10	7	17
+191	house	3	9	5	17
+192	I’m-going-to		14	3	17
+193	important	1	8	8	17
+194	just	1	7	9	17
+195	understand	6		11	17
+196	visited	3	3	11	17
+197	better		15	1	16
+198	busy	3	7	6	16
+199	clean	4	2	10	16
+200	game	4	8	4	16
+201	have-to		14	2	16
+202	Sam	4	12		16
+203	sister	12	1	3	16
+204	stay	2	3	11	16
+205	time	3	2	11	16
+206	always		11	4	15
+207	big	1	7	7	15
+208	came	4	4	7	15
+209	city	5	4	6	15
+210	hello	7	5	3	15
+211	home	4	10	1	15
+212	Jenny			15	15
+213	joy		4	11	15
+214	morning	2	6	7	15
+215	sorry	4	8	3	15
+216	take	7	4	4	15
+217	things	2	9	4	15
+218	world		8	7	15
+219	are-going-to		10	4	14
+220	became		6	8	14
+221	computer	3	6	5	14
+222	every	7	3	4	14
+223	every-day	2	7	5	14
+224	guitar	8		6	14
+225	learn	1	6	7	14
+226	Meg	4	4	6	14
+227	Ms	3	9	2	14
+228	other	4	5	5	14
+229	students		3	11	14
+230	studying	14			14
+231	sure	2	7	5	14
+232	used			14	14
+233	White	3	4	7	14
+234	yesterday	2	5	7	14
+235	answer	4	3	6	13
+236	asked			13	13
+237	doing	8	5		13
+238	eat	6	5	2	13
+239	energy	13			13
+240	everyone	4	3	6	13
+241	food	5	6	2	13
+242	Mack		13		13
+243	message	5	2	6	13
+244	or		6	7	13
+245	parents		1	12	13
+246	question	1	4	8	13
+247	solar	13			13
+248	talk	5	7	1	13
+249	winter	3	9	1	13
+250	another	1	3	8	12
+251	around	2	7	3	12
+252	aunt	7	4	1	12
+253	book	3	6	3	12
+254	dream		9	3	12
+255	future		9	3	12
+256	girl	5	1	6	12
+257	help	2	9	1	12
+258	life		3	9	12
+259	often	5	3	4	12
+260	old	2	6	4	12
+261	singer	2	4	6	12
+262	small		3	9	12
+263	summer	3	9		12
+264	times		1	11	12
+265	usually	2	6	4	12
+266	vacation		12		12
+267	wonderful	2	5	5	12
+268	write	2	1	9	12
+269	again	2	2	7	11
+270	any	2	6	3	11
+271	birthday	4	6	1	11
+272	bring	1	6	4	11
+273	country	4	2	5	11
+274	different	1	7	3	11
+275	doesn’t	4	6	1	11
+276	even	1	6	4	11
+277	ever			11	11
+278	fine	3	3	5	11
+279	language	1		10	11
+280	listen	3	4	4	11
+281	look	2	6	3	11
+282	never	1	1	9	11
+283	party		8	3	11
+284	Paulo		11		11
+285	place	4	2	5	11
+286	player	4	4	3	11
+287	playing	3	3	5	11
+288	sing		2	9	11
+289	swim	9	2		11
+290	three	3	4	4	11
+291	Tom	7	2	2	11
+292	town			11	11
+293	who’s	9		2	11
+294	work		8	3	11
+295	Andy	10			10
+296	ball	1	6	3	10
+297	before		1	9	10
+298	books	3	4	3	10
+299	cake	3	3	4	10
+300	called		3	7	10
+301	e-mail	3		7	10
+302	five	3	2	5	10
+303	for-example	2	1	7	10
+304	gave		4	6	10
+305	its	1	4	5	10
+306	made		1	9	10
+307	person		4	6	10
+308	practice	1	9		10
+309	read		3	7	10
+310	red	3	1	6	10
+311	Saturday	4	4	2	10
+312	science	4	5	1	10
+313	send		2	8	10
+314	should		4	6	10
+315	Singapore	9		1	10
+316	telephone	7	1	2	10
+317	trip	3	2	5	10
+318	worry	3	4	3	10
+319	yours	6	4		10
+320	all-right	3		6	9
+321	a-lot	4	3	2	9
+322	America	3	6		9
+323	anything		4	5	9
+324	built			9	9
+325	can-you		7	2	9
+326	contest		4	5	9
+327	down	3	1	5	9
+328	festival	2	1	7	9
+329	fish	1	6	2	9
+330	going		5	4	9
+331	little		4	5	9
+332	love	3	2	4	9
+333	met			9	9
+334	pencil	9			9
+335	present	6	3		9
+336	ride		1	8	9
+337	saw		2	7	9
+338	stadium	4	3	2	9
+339	story		2	7	9
+340	street			9	9
+341	talking	3	3	3	9
+342	train	2	5	2	9
+343	trains		8	1	9
+344	up	4	2	3	9
+345	video	3	3	3	9
+346	walk	1	4	4	9
+347	way	2	4	3	9
+348	where’s	6	1	2	9
+349	words	6		3	9
+350	afternoon	2	5	1	8
+351	ago		6	2	8
+352	air		7	1	8
+353	Canada	2	5	1	8
+354	Chinese	6	2		8
+355	class		1	7	8
+356	cooking	1	1	6	8
+357	easy		2	6	8
+358	enjoyed	3	4	1	8
+359	famous	4	3	1	8
+360	fan	7	1		8
+361	felt		2	6	8
+362	finished		2	6	8
+363	hair	1		7	8
+364	into	3	3	2	8
+365	join			8	8
+366	kind-of	1	4	3	8
+367	left		2	6	8
+368	library		4	4	8
+369	live	6	2		8
+370	makes		1	7	8
+371	man	2		6	8
+372	math		7	1	8
+373	months	5	1	2	8
+374	need	3	3	2	8
+375	New-York		6	2	8
+376	Okinawan			8	8
+377	pictures	1	4	3	8
+378	played	3	2	3	8
+379	river		4	4	8
+380	soft		8		8
+381	sounds		3	5	8
+382	took		4	4	8
+383	TV	6	2		8
+384	volunteer	1		7	8
+385	wanted	1	4	3	8
+386	war		3	5	8
+387	watched	5	1	2	8
+388	won		3	5	8
+389	young		2	6	8
+390	August	2	1	4	7
+391	Australia		6	1	7
+392	basketball		5	2	7
+393	become		5	2	7
+394	begin			7	7
+395	bike	1	3	3	7
+396	bought			7	7
+397	boys	4		3	7
+398	buy	1	1	5	7
+399	came-true		6	1	7
+400	concert		3	4	7
+401	days			7	7
+402	doctor		5	2	7
+403	each		2	5	7
+404	evening	1	6		7
+405	fall	3	3	1	7
+406	flew			7	7
+407	four	5	1	1	7
+408	fun		2	5	7
+409	goodbye	3	2	2	7
+410	haven’t			7	7
+411	homework		5	2	7
+412	horse	5		2	7
+413	island	1		6	7
+414	it’ll		3	4	7
+415	juice	3	4		7
+416	Kawai		7		7
+417	keyboard	7			7
+418	kind	1	4	2	7
+419	large		4	3	7
+420	Li		7		7
+421	lived	2	2	3	7
+422	making	5		2	7
+423	Mary	1	3	3	7
+424	mean		1	6	7
+425	most		7		7
+426	Mother-Teresa		7		7
+427	Mt	2	2	3	7
+428	once		1	6	7
+429	on-TV	6	1		7
+430	origami	3		4	7
+431	plays	6	1		7
+432	ran			7	7
+433	reading		5	2	7
+434	room	6		1	7
+435	says	2	3	2	7
+436	sea	4	1	2	7
+437	seashore			7	7
+438	singing		6	1	7
+439	sports	1	5	1	7
+440	start		3	4	7
+441	studied	4	1	2	7
+442	Sydney		7		7
+443	taught		4	3	7
+444	ten	3		4	7
+445	these	1	3	3	7
+446	thirty	2	2	3	7
+447	tired			7	7
+448	travel		5	2	7
+449	weather	1	5	1	7
+450	yellow	4	1	2	7
+451	you’re	2	2	3	7
+452	after-school	2	3	1	6
+453	American	1	5		6
+454	animals		3	3	6
+455	began		3	3	6
+456	brought		3	3	6
+457	bus	1	1	4	6
+458	cars	1	5		6
+459	cat	2	1	3	6
+460	Cathy		1	5	6
+461	coat		6		6
+462	cook	2	3	1	6
+463	could		2	4	6
+464	daughter	4		2	6
+465	during		5	1	6
+466	electric		6		6
+467	end			6	6
+468	exciting	1	2	3	6
+469	feel			6	6
+470	find	2		4	6
+471	fuel		6		6
+472	games	1	5		6
+473	get-up		2	4	6
+474	got		4	2	6
+475	greeting		3	3	6
+476	Harry-Potter		1	5	6
+477	hear			6	6
+478	heard	1	2	3	6
+479	here’s		2	4	6
+480	idea	1	3	2	6
+481	I’d-like-to		3	3	6
+482	I’m-sorry	1	3	2	6
+483	languages	1	3	2	6
+484	last-night	5	1		6
+485	liked	1	5		6
+486	London		2	4	6
+487	look-for		1	5	6
+488	meat		6		6
+489	mom	4	1	1	6
+490	must		4	2	6
+491	one-day		2	4	6
+492	orange	4	2		6
+493	out		5	1	6
+494	own		3	3	6
+495	prize		2	4	6
+496	project		2	4	6
+497	respect	5		1	6
+498	returned			6	6
+499	ribbon			6	6
+500	rodeo	6			6
+501	same	1	1	4	6
+502	sang		1	5	6
+503	Seattle	6			6
+504	son	6			6
+505	spend		6		6
+506	still	4		2	6
+507	try		4	2	6
+508	week		2	4	6
+509	win		4	2	6
+510	writing	4	1	1	6
+511	you’ll		1	5	6
+512	aborigines		2	3	5
+513	April	3		2	5
+514	balls			5	5
+515	Brazil		5		5
+516	call		1	4	5
+517	chorus		3	2	5
+518	club		4	1	5
+519	cold		5		5
+520	college	1	4		5
+521	couldn’t		2	3	5
+522	cute	1	1	3	5
+523	desk	4	1		5
+524	died		2	3	5
+525	different-from	1	1	3	5
+526	dinner	2	1	2	5
+527	engine		5		5
+528	engineer		5		5
+529	enough	2	1	2	5
+530	exchange		3	2	5
+531	excuse-me	3	1	1	5
+532	fast	3	1	1	5
+533	father’s	3	2		5
+534	few		2	3	5
+535	friendly		2	3	5
+536	grandma	4		1	5
+537	hand	3		2	5
+538	helped		2	3	5
+539	hope		3	2	5
+540	how’s	1	2	2	5
+541	Internet	1		4	5
+542	Judy	5			5
+543	later			5	5
+544	lives	4	1		5
+545	loved	2		3	5
+546	musical		2	3	5
+547	normal		5		5
+548	November	2	1	2	5
+549	o’clock	3	1	1	5
+550	open	3	1	1	5
+551	passed		1	4	5
+552	peace		1	4	5
+553	plants			5	5
+554	practiced		3	2	5
+555	questions			5	5
+556	ready		2	3	5
+557	real		1	4	5
+558	restaurant		3	2	5
+559	return			5	5
+560	roller-coasters			5	5
+561	running		1	4	5
+562	shall-we		3	2	5
+563	sisters	1	4		5
+564	six	1	2	2	5
+565	soon		3	2	5
+566	speaks	1	2	2	5
+567	speech			5	5
+568	stop	1	2	2	5
+569	strong		2	3	5
+570	sung			5	5
+571	swimming		4	1	5
+572	talks	2	3		5
+573	textbook	4	1		5
+574	think-of		4	1	5
+575	told		3	2	5
+576	treasure	4	1		5
+577	unique			5	5
+578	uses	1	4		5
+579	village	5			5
+580	wait	3	2		5
+581	web			5	5
+582	welcome	2	1	2	5
+583	we’re	1	1	3	5
+584	working		3	2	5
+585	yourself		3	2	5
+586	across			4	4
+587	afraid			4	4
+588	agree		1	3	4
+589	agree-with		3	1	4
+590	all-over-the- world		2	2	4
+591	apple	2	2		4
+592	Argentina			4	4
+593	at-first		2	2	4
+594	away		1	3	4
+595	bad		3	1	4
+596	blue	3	1		4
+597	boat			4	4
+598	bonobos	4			4
+599	brothers	4			4
+600	bullet		4		4
+601	can-I		4		4
+602	cap	3	1		4
+603	cats		2	2	4
+604	CD		2	2	4
+605	child			4	4
+606	clever	3		1	4
+607	climbed	1		3	4
+608	comes	2	1	1	4
+609	cookers	4			4
+610	countries		2	2	4
+611	dances		2	2	4
+612	December	3	1		4
+613	early		2	2	4
+614	eating		1	3	4
+615	eight	4			4
+616	else		4		4
+617	e-mails			4	4
+618	excited		2	2	4
+619	feelings			4	4
+620	finally		4		4
+621	for-the-first- time		2	2	4
+622	free		3	1	4
+623	grandparents		4		4
+624	group			4	4
+625	I’m-sure		4		4
+626	international	1		3	4
+627	introduced	1		3	4
+628	I-see	1		3	4
+629	Italy		4		4
+630	Julie		4		4
+631	July	2		2	4
+632	late			4	4
+633	looked	2	1	1	4
+634	looks	1	2	1	4
+635	lost		4		4
+636	March	2	1	1	4
+637	Maria		4		4
+638	Martin		4		4
+639	Masao	1	3		4
+640	May	2		2	4
+641	medal		1	3	4
+642	member		4		4
+643	members		2	2	4
+644	memory			4	4
+645	money			4	4
+646	mother’s	2	2		4
+647	moved		1	3	4
+648	neighbor			4	4
+649	Nick	4			4
+650	notebook	4			4
+651	of-course	3	1		4
+652	officer			4	4
+653	official	1		3	4
+654	oranges	4			4
+655	others		2	2	4
+656	over		4		4
+657	overseas			4	4
+658	Papua-New- Guinea			4	4
+659	piano		1	3	4
+660	plans		4		4
+661	pollute		4		4
+662	projects			4	4
+663	racket		4		4
+664	riding		1	3	4
+665	rock		3	1	4
+666	roller-coaster			4	4
+667	ruler	2	2		4
+668	Saito	2		2	4
+669	salmon	3		1	4
+670	seasons	2	2		4
+671	seed			4	4
+672	shows			4	4
+673	sings	2		2	4
+674	sit	3		1	4
+675	slowly		2	2	4
+676	snow		2	2	4
+677	something		2	2	4
+678	sometimes	1	1	2	4
+679	songs		2	2	4
+680	Soseki		3	1	4
+681	space	3		1	4
+682	stamps			4	4
+683	started		3	1	4
+684	stories		1	3	4
+685	streets			4	4
+686	such			4	4
+687	sunset	3	1		4
+688	talked	2	1	1	4
+689	teach		2	2	4
+690	tears			4	4
+691	teddy		4		4
+692	thanks		2	2	4
+693	they’re		1	3	4
+694	thing	2	1	1	4
+695	thought		4		4
+696	together	1	2	1	4
+697	tonight		4		4
+698	tower		1	3	4
+699	trees			4	4
+700	turn			4	4
+701	uncle’s	1		3	4
+702	walked	1	1	2	4
+703	wasn’t		2	2	4
+704	wear		4		4
+705	whale	4			4
+706	whose	4			4
+707	will-you		3	1	4
+708	worked	1	2	1	4
+709	would-you- like-to		2	2	4
+710	wow	1	2	1	4
+711	writer		3	1	4
+712	written			4	4
+713	yet		1	3	4
+714	abroad		2	1	3
+715	am-going-to		3		3
+716	amusement			3	3
+717	animal		2	1	3
+718	answered			3	3
+719	anyone		2	1	3
+720	arms			3	3
+721	Austria		3		3
+722	Ayers-Rock		3		3
+723	believe-in			3	3
+724	birds		1	2	3
+725	board	2	1		3
+726	bonobo	3			3
+727	box	1	1	1	3
+728	camping	2		1	3
+729	can’t-you		1	2	3
+730	cell		3		3
+731	center	3			3
+732	China			3	3
+733	chocolate	2		1	3
+734	classes		1	2	3
+735	classmates		2	1	3
+736	commonly			3	3
+737	communicate	2		1	3
+738	cool		2	1	3
+739	could-you		1	2	3
+740	country-fair	3			3
+741	cried		1	2	3
+742	culture			3	3
+743	dancing			3	3
+744	dogs		3		3
+745	each-other		2	1	3
+746	eggs	1	2		3
+747	elderly			3	3
+748	Emily	2	1		3
+749	encouraged		3		3
+750	eraser	3			3
+751	example	1	2		3
+752	experience		2	1	3
+753	eyes		1	2	3
+754	face		1	2	3
+755	fifteen	1	1	1	3
+756	finish		3		3
+757	flag			3	3
+758	floor	3			3
+759	folk		1	2	3
+760	for-a-long- time	1		2	3
+761	found		1	2	3
+762	France		3		3
+763	Friday	3			3
+764	gift	3			3
+765	girl’s			3	3
+766	gold		1	2	3
+767	good-morning	2		1	3
+768	grandfather	3			3
+769	grandpa	2	1		3
+770	grew			3	3
+771	had-a-good- time		3		3
+772	Hana		1	2	3
+773	happened		1	2	3
+774	hat			3	3
+775	healthy		3		3
+776	heavy		3		3
+777	help-with		1	2	3
+778	hobbies		3		3
+779	hold-on	3			3
+780	homeless		3		3
+781	host		3		3
+782	how-much	2	1		3
+783	how-old	2	1		3
+784	I’d		1	2	3
+785	I’m-afraid-of			3	3
+786	impressed			3	3
+787	instrument			3	3
+788	interviewer			3	3
+789	January	3			3
+790	job		3		3
+791	Jun	3			3
+792	junk			3	3
+793	knows	2		1	3
+794	koala		2	1	3
+795	leader	3			3
+796	learned	1	1	1	3
+797	letter		2	1	3
+798	letters		2	1	3
+799	looks-like		2	1	3
+800	loves	2		1	3
+801	lunch	2	1		3
+802	mail			3	3
+803	maybe		2	1	3
+804	may-I		2	1	3
+805	melody			3	3
+806	messages			3	3
+807	mine	3			3
+808	movie		1	2	3
+809	movies		2	1	3
+810	near		1	2	3
+811	needle	3			3
+812	nine	1	2		3
+813	no-way			3	3
+814	numbers	3			3
+815	October	3			3
+816	older		3		3
+817	Olympic		1	2	3
+818	over-there	2		1	3
+819	part		1	2	3
+820	parts		2	1	3
+821	past	2		1	3
+822	places	1		2	3
+823	plane	3			3
+824	polluting		3		3
+825	poor		3		3
+826	pretty			3	3
+827	program	2		1	3
+828	put		1	2	3
+829	race			3	3
+830	relax	1	2		3
+831	Rome		2	1	3
+832	sad			3	3
+833	sandwiches		1	2	3
+834	sanshin			3	3
+835	scary			3	3
+836	schools		2	1	3
+837	screen	1	1	1	3
+838	second	1	1	1	3
+839	seconds	3			3
+840	seen			3	3
+841	see-you		2	1	3
+842	sent		1	2	3
+843	Seoul		1	2	3
+844	September	2	1		3
+845	seven	1	2		3
+846	shall-I		3		3
+847	shop		2	1	3
+848	shopping		3		3
+849	show		3		3
+850	sick		1	2	3
+851	since			3	3
+852	ski		2	1	3
+853	skiing		3		3
+854	smile		2	1	3
+855	smiled		2	1	3
+856	smiling			3	3
+857	speaking	1	1	1	3
+858	star			3	3
+859	station			3	3
+860	strange		3		3
+861	studies	2	1		3
+862	stuffed		3		3
+863	subjects		2	1	3
+864	suitcase	3			3
+865	sun	2		1	3
+866	sweet		3		3
+867	symbol	3			3
+868	symbols	2		1	3
+869	teaching		1	2	3
+870	tGV		3		3
+871	thank	3			3
+872	the-Internet			3	3
+873	there’s		2	1	3
+874	Tok-Pisin			3	3
+875	tomatoes		3		3
+876	toward			3	3
+877	traveling		3		3
+878	Tuesday	3			3
+879	turned	1		2	3
+880	types		2	1	3
+881	upset			3	3
+882	U-S		2	1	3
+883	waited			3	3
+884	wash	2		1	3
+885	watching	1	1	1	3
+886	websites			3	3
+887	we’re-going- to		1	2	3
+888	without		1	2	3
+889	won’t		2	1	3
+890	would	1		2	3
+891	would-you- like	2	1		3
+892	wrong	1	1	1	3
+893	Aboriginal			2	2
+894	a-day			2	2
+895	address			2	2
+896	advice			2	2
+897	Ah		1	1	2
+898	alone			2	2
+899	along			2	2
+900	alphabet		2		2
+901	Americans		2		2
+902	among		2		2
+903	and-so-on			2	2
+904	animation			2	2
+905	anime		2		2
+906	apples	2			2
+907	aren’t	1	1		2
+908	Argentine			2	2
+909	arrive			2	2
+910	art		1	1	2
+911	Asia			2	2
+912	at-last	1		1	2
+913	audience		1	1	2
+914	Australian			2	2
+915	bags		1	1	2
+916	bake		1	1	2
+917	baked		1	1	2
+918	bath	2			2
+919	bear		2		2
+920	bears		2		2
+921	bed	1	1		2
+922	believe			2	2
+923	Big-Ben			2	2
+924	bikes		2		2
+925	black		2		2
+926	blocks			2	2
+927	brother’s	2			2
+928	Buenos			2	2
+929	build			2	2
+930	building			2	2
+931	burned-out			2	2
+932	cakes	1		1	2
+933	cancer		2		2
+934	cannot	1	1		2
+935	caves		2		2
+936	cellphone	2			2
+937	cells		2		2
+938	changed		2		2
+939	cheerful		2		2
+940	Chen	2			2
+941	childhood			2	2
+942	chimp	2			2
+943	chips			2	2
+944	cities	1	1		2
+945	classroom	1	1		2
+946	cleaned			2	2
+947	cleaning			2	2
+948	click			2	2
+949	closed	1		1	2
+950	cloudy		2		2
+951	clubs			2	2
+952	collect			2	2
+953	collecting			2	2
+954	color	1		1	2
+955	communication			2	2
+956	computers			2	2
+957	computer- science	2			2
+958	continent			2	2
+959	conversation		2		2
+960	cousin		2		2
+961	cup			2	2
+962	customs			2	2
+963	dear		1	1	2
+964	died-of		2		2
+965	dishes		1	1	2
+966	do-my-best		1	1	2
+967	door		2		2
+968	downtown	2			2
+969	drink		2		2
+970	Easter		2		2
+971	effective			2	2
+972	egg	1	1		2
+973	either		2		2
+974	electricity		2		2
+975	elementary	2			2
+976	engines		2		2
+977	environmental			2	2
+978	events	2			2
+979	everything		2		2
+980	eye	1		1	2
+981	falls-down	2			2
+982	famous-for	2			2
+983	February	2			2
+984	Ferris-wheel			2	2
+985	Ferris-wheels			2	2
+986	fishing		1	1	2
+987	fix			2	2
+988	fly		2		2
+989	football		2		2
+990	for-a-living		2		2
+991	forever		1	1	2
+992	friend’s		2		2
+993	fruit		1	1	2
+994	full-of			2	2
+995	garden			2	2
+996	gas		2		2
+997	gave-up		2		2
+998	Germany		2		2
+999	get-off			2	2
+1000	gets-on	2			2
+1001	give-a-try		1	1	2
+1002	glass	1	1		2
+1003	goes	2			2
+1004	Green	1		1	2
+1005	ground	2			2
+1006	hamburger		2		2
+1007	hands	1	1		2
+1008	hardships		2		2
+1009	have-a-good- time		2		2
+1010	Hawaii		2		2
+1011	heart		1	1	2
+1012	he’ll		2		2
+1013	hers	1	1		2
+1014	hit			2	2
+1015	holes			2	2
+1016	hour		1	1	2
+1017	hours		2		2
+1018	houses			2	2
+1019	ICE	1	1		2
+1020	imagine			2	2
+1021	I’m-good-at		2		2
+1022	imitate			2	2
+1023	in-all	1		1	2
+1024	information			2	2
+1025	in-front-of			2	2
+1026	in-his-place		2		2
+1027	invented		2		2
+1028	Iraqi			2	2
+1029	is-going-to		2		2
+1030	James	1		1	2
+1031	Jim’s		2		2
+1032	John			2	2
+1033	joined		1	1	2
+1034	June	2			2
+1035	Ken’s	1	1		2
+1036	King’s-Cross- Station			2	2
+1037	knew			2	2
+1038	koalas		2		2
+1039	Kolkata		2		2
+1040	lake	1	1		2
+1041	lap			2	2
+1042	laugh	2			2
+1043	laughed		2		2
+1044	lead	2			2
+1045	light		1	1	2
+1046	listened			2	2
+1047	lonely			2	2
+1048	Malay	2			2
+1049	map		1	1	2
+1050	Mary’s	1		1	2
+1051	means			2	2
+1052	meets	2			2
+1053	meters		2		2
+1054	milk		2		2
+1055	million	1		1	2
+1056	mind		2		2
+1057	minutes		1	1	2
+1058	missionaries		2		2
+1059	month		2		2
+1060	mouth	1	1		2
+1061	move	1	1		2
+1062	natural	2			2
+1063	nearly		2		2
+1064	news	1		1	2
+1065	night	1		1	2
+1066	nose	2			2
+1067	not-really	1	1		2
+1068	oh-my- goodness	2			2
+1069	ours	1		1	2
+1070	ourselves			2	2
+1071	ozone			2	2
+1072	pardon-me	2			2
+1073	passenger		2		2
+1074	Pat’s	2			2
+1075	pen	2			2
+1076	photo		2		2
+1077	pidgin			2	2
+1078	PLAN		1	1	2
+1079	planes		2		2
+1080	players		2		2
+1081	powerful		2		2
+1082	power-station		2		2
+1083	press	2			2
+1084	presses	2			2
+1085	provide			2	2
+1086	quickly			2	2
+1087	rain		2		2
+1088	Rainier	2			2
+1089	rains		2		2
+1090	raw		2		2
+1091	reach		2		2
+1092	react			2	2
+1093	receive			2	2
+1094	received		1	1	2
+1095	relatives		1	1	2
+1096	relaxes	2			2
+1097	rider	2			2
+1098	rude			2	2
+1099	rules		1	1	2
+1100	safe	1		1	2
+1101	saved		2		2
+1102	scientist	2			2
+1103	seventh	2			2
+1104	shed			2	2
+1105	short	1		1	2
+1106	sight		2		2
+1107	similar	1	1		2
+1108	Simon	2			2
+1109	singer- songwriter			2	2
+1110	sister’s	2			2
+1111	sitting			2	2
+1112	snack		2		2
+1113	snorkeled		2		2
+1114	some-day			2	2
+1115	sound			2	2
+1116	south			2	2
+1117	stand	2			2
+1118	stayed-with		2		2
+1119	staying		2		2
+1120	staying-with		2		2
+1121	stay- overnight			2	2
+1122	stay-with		1	1	2
+1123	stopped	1	1		2
+1124	straight		1	1	2
+1125	sugar		2		2
+1126	surprised		1	1	2
+1127	sweater		2		2
+1128	Sweden		2		2
+1129	take-care-of		1	1	2
+1130	taken			2	2
+1131	tallest		2		2
+1132	taste		2		2
+1133	tea	1	1		2
+1134	tells			2	2
+1135	tempura	2			2
+1136	tent	1		1	2
+1137	The-Ishikari- River		2		2
+1138	there’s- something- wrong-with			2	2
+1139	title			2	2
+1140	tone		2		2
+1141	top		1	1	2
+1142	touch	2			2
+1143	tournament		2		2
+1144	translated			2	2
+1145	tree		1	1	2
+1146	tribe			2	2
+1147	tried			2	2
+1148	twelve	2			2
+1149	twenty	2			2
+1150	twice			2	2
+1151	type-in			2	2
+1152	udon	2			2
+1153	U-K			2	2
+1154	under		1	1	2
+1155	victory			2	2
+1156	volunteers			2	2
+1157	walking		2		2
+1158	washing	1	1		2
+1159	water		1	1	2
+1160	ways	1	1		2
+1161	website			2	2
+1162	Wednesday	2			2
+1163	we’ve			2	2
+1164	whales	2			2
+1165	window		1	1	2
+1166	woman	1		1	2
+1167	wrote		1	1	2
+1168	younger		2		2
+1169	You’ve			2	2
+1170	Aborigine			1	1
+1171	above		1		1
+1172	accent			1	1
+1173	achieve			1	1
+1174	a-couple-of			1	1
+1175	actions			1	1
+1176	activities			1	1
+1177	actor		1		1
+1178	actress		1		1
+1179	adress			1	1
+1180	advertising			1	1
+1181	Africa	1			1
+1182	after-all		1		1
+1183	ahead			1	1
+1184	airport	1			1
+1185	Alfredo			1	1
+1186	alive	1			1
+1187	all-the-way		1		1
+1188	already			1	1
+1189	amazing		1		1
+1190	anchorperson		1		1
+1191	Andrew		1		1
+1192	anyway		1		1
+1193	appreciate			1	1
+1194	area			1	1
+1195	are-good-at			1	1
+1196	are-learning	1			1
+1197	arrived			1	1
+1198	artist		1		1
+1199	as-as-could			1	1
+1200	asks			1	1
+1201	as-long-as			1	1
+1202	as-well		1		1
+1203	at-a-time		1		1
+1204	ate			1	1
+1205	Atlanta		1		1
+1206	at-that-time		1		1
+1207	at-the-same- time		1		1
+1208	aunt’s	1			1
+1209	Aussie		1		1
+1210	Austin	1			1
+1211	Austin- Sherman- fighton	1	1
+1212	awards			1	1
+1213	Baghdad			1	1
+1214	bananas	1			1
+1215	bank			1	1
+1216	batteries		1		1
+1217	be-able-to			1	1
+1218	beach			1	1
+1219	Beatles			1	1
+1220	because-of			1	1
+1221	becoming			1	1
+1222	been-afraid- of			1	1
+1223	beginning			1	1
+1224	begins			1	1
+1225	behave			1	1
+1226	believed	1			1
+1227	below		1		1
+1228	between			1	1
+1229	Bill		1		1
+1230	birthdays		1		1
+1231	blood			1	1
+1232	Bob			1	1
+1233	bored			1	1
+1234	both		1		1
+1235	both-and		1		1
+1236	boxes	1			1
+1237	breaking			1	1
+1238	breathe			1	1
+1239	bright		1		1
+1240	Broadway		1		1
+1241	broke			1	1
+1242	buildings		1		1
+1243	burned-down			1	1
+1244	business		1		1
+1245	buys	1			1
+1246	by-the-way			1	1
+1247	calling	1			1
+1248	camp		1		1
+1249	campaign			1	1
+1250	can-we			1	1
+1251	capital			1	1
+1252	captain’s		1		1
+1253	Captain-von- Trapp		1		1
+1254	card		1		1
+1255	care		1		1
+1256	cared-for		1		1
+1257	careful	1			1
+1258	carefully			1	1
+1259	carry		1		1
+1260	Casero			1	1
+1261	catch		1		1
+1262	cellphones			1	1
+1263	chair	1			1
+1264	challenge			1	1
+1265	change			1	1
+1266	check			1	1
+1267	cheeseburger		1		1
+1268	chemicals			1	1
+1269	chess	1			1
+1270	children’s			1	1
+1271	Children’s- Day			1	1
+1272	chimps	1			1
+1273	chocolates	1			1
+1274	chopsticks			1	1
+1275	Christian			1	1
+1276	Christmas			1	1
+1277	classmate			1	1
+1278	classrooms			1	1
+1279	clear		1		1
+1280	climb			1	1
+1281	close	1			1
+1282	closes	1			1
+1283	coaster			1	1
+1284	code			1	1
+1285	coffee		1		1
+1286	cola		1		1
+1287	colder		1		1
+1288	combination		1		1
+1289	come-from	1			1
+1290	comfort			1	1
+1291	company			1	1
+1292	compliments		1		1
+1293	cooked			1	1
+1294	cookie		1		1
+1295	cooks	1			1
+1296	cooler		1		1
+1297	corner			1	1
+1298	countless			1	1
+1299	covered			1	1
+1300	cowboy	1			1
+1301	creatures			1	1
+1302	cultures	1			1
+1303	cycling		1		1
+1304	dad			1	1
+1305	dance			1	1
+1306	date	1			1
+1307	dead			1	1
+1308	decide			1	1
+1309	decided			1	1
+1310	deep	1			1
+1311	Denver		1		1
+1312	desert			1	1
+1313	dialect			1	1
+1314	dictionary			1	1
+1315	did-our-best			1	1
+1316	differences			1	1
+1317	discovered	1			1
+1318	Disney			1	1
+1319	Disneyland			1	1
+1320	doesn’t-at-all	1			1
+1321	doing-our- best			1	1
+1322	dollars	1			1
+1323	Doll’s-Festival			1	1
+1324	donations			1	1
+1325	don’t-any- more			1	1
+1326	do-their-best			1	1
+1327	dreams		1		1
+1328	drive			1	1
+1329	drivers		1		1
+1330	driving			1	1
+1331	dropped	1			1
+1332	dying			1	1
+1333	ear	1			1
+1334	ears		1		1
+1335	earth	1			1
+1336	eats	1			1
+1337	education	1			1
+1338	effort			1	1
+1339	EGO			1	1
+1340	eighteen	1			1
+1341	eighteenth	1			1
+1342	eighth	1			1
+1343	elementary school	1			1
+1344	eleven	1			1
+1345	eleventh	1			1
+1346	encouraging		1		1
+1347	ended			1	1
+1348	ends			1	1
+1349	enjoys			1	1
+1350	enough-for		1		1
+1351	entered			1	1
+1352	eternal			1	1
+1353	etiquette			1	1
+1354	Europe		1		1
+1355	everything’s			1	1
+1356	Excuse	1			1
+1357	expensive			1	1
+1358	explain			1	1
+1359	express			1	1
+1360	extinct			1	1
+1361	faces		1		1
+1362	fact	1			1
+1363	facts	1			1
+1364	falling-out			1	1
+1365	fantastic			1	1
+1366	farm			1	1
+1367	fastest		1		1
+1368	feel-free-to			1	1
+1369	fell		1		1
+1370	skiing		1		1
+1371	field	1			1
+1372	Field-Day		1		1
+1373	fifteenth	1			1
+1374	fifth	1			1
+1375	fight			1	1
+1376	fighting			1	1
+1377	fingers		1		1
+1378	followed	1			1
+1379	foot			1	1
+1380	foreign			1	1
+1381	forests			1	1
+1382	forgets	1			1
+1383	forgot		1		1
+1384	former		1		1
+1385	forth	1			1
+1386	forward		1		1
+1387	fourteen	1			1
+1388	fourteenth	1			1
+1389	Freeman			1	1
+1390	Freeman’s			1	1
+1391	french-fries		1		1
+1392	fried	1			1
+1393	front		1		1
+1394	gathered		1		1
+1395	generations			1	1
+1396	get-along			1	1
+1397	gets	1			1
+1398	gets-better			1	1
+1399	getting			1	1
+1400	giant	1			1
+1401	girls	1			1
+1402	give-off		1		1
+1403	gives-off		1		1
+1404	glad		1		1
+1405	global			1	1
+1406	goals			1	1
+1407	go-back-to		1		1
+1408	gods	1			1
+1409	goes-off			1	1
+1410	gold-medalist		1		1
+1411	golfer		1		1
+1412	gone		1		1
+1413	good- afternoon	1			1
+1414	got-into		1		1
+1415	Great-Wall			1	1
+1416	greetings			1	1
+1417	grow		1		1
+1418	grown-ups			1	1
+1419	guess-what		1		1
+1420	Guinea			1	1
+1421	had-to		1		1
+1422	half		1		1
+1423	half-an-hour		1		1
+1424	hamburgers	1			1
+1425	happiest			1	1
+1426	harder		1		1
+1427	head	1			1
+1428	held			1	1
+1429	helped-with			1	1
+1430	here-it-is	1			1
+1431	here-you-are		1		1
+1432	he’s-going-to			1	1
+1433	he’s-good-at		1		1
+1434	highest		1		1
+1435	hiking		1		1
+1436	hill		1		1
+1437	himself			1	1
+1438	Hitler		1		1
+1439	hobby		1		1
+1440	hold		1		1
+1441	holy		1		1
+1442	homeland		1		1
+1443	hopes		1		1
+1444	horses	1			1
+1445	hot		1		1
+1446	hot-chocolate		1		1
+1447	hot-dog		1		1
+1448	hotter		1		1
+1449	however			1	1
+1450	how-many	1			1
+1451	http	1			1
+1452	hugged		1		1
+1453	huh		1		1
+1454	human			1	1
+1455	humans	1			1
+1456	hundred	1			1
+1457	hungry			1	1
+1458	hunting		1		1
+1459	hurried			1	1
+1460	hurt			1	1
+1461	husband		1		1
+1462	hydrogen		1		1
+1463	ideas			1	1
+1464	identity			1	1
+1465	I’m-interested-in			1	1
+1466	Indonesian	1			1
+1467	in-fact			1	1
+1468	inhabitant			1	1
+1469	interested			1	1
+1470	in-those-days		1		1
+1471	in-time			1	1
+1472	introduce		1		1
+1473	invites			1	1
+1474	is-anything- wrong-with			1	1
+1475	is-in-love- with		1		1
+1476	islands			1	1
+1477	is-there- anything- wrong-with	1	1
+1478	Italian	1			1
+1479	it’s-going-to			1	1
+1480	I-would-like- to		1		1
+1481	jazz			1	1
+1482	jet-lag			1	1
+1483	Jewish		1		1
+1484	join-in		1		1
+1485	journalist		1		1
+1486	jumped	1			1
+1487	just-a-minute		1		1
+1488	kangaroos		1		1
+1489	keep			1	1
+1490	keep-off		1		1
+1491	kick			1	1
+1492	kicking			1	1
+1493	kin		1		1
+1494	kindergarten			1	1
+1495	kinds-of	1			1
+1496	kitchen		1		1
+1497	Korea			1	1
+1498	Korean		1		1
+1499	Korean-Folk- Village		1		1
+1500	Lake-Biwa		1		1
+1501	largest		1		1
+1502	layer			1	1
+1503	learning			1	1
+1504	leather			1	1
+1505	leave			1	1
+1506	let-me-see			1	1
+1507	lighter		1		1
+1508	line			1	1
+1509	link			1	1
+1510	listening		1		1
+1511	listen-to	1			1
+1512	literally			1	1
+1513	local			1	1
+1514	locker		1		1
+1515	longer		1		1
+1516	longest		1		1
+1517	long-time-no- see		1		1
+1518	looked-at			1	1
+1519	looking			1	1
+1520	looking-at			1	1
+1521	looking-for		1		1
+1522	looking- forward-to		1		1
+1523	losers		1		1
+1524	lots-of		1		1
+1525	loud		1		1
+1526	louder			1	1
+1527	lucky		1		1
+1528	lunch-box	1			1
+1529	madelunch			1	1
+1530	made-up-my- mind		1		1
+1531	magic			1	1
+1532	mailbox	1			1
+1533	Maori	1			1
+1534	Mariners	1			1
+1535	markets		1		1
+1536	meant		1		1
+1537	medalist		1		1
+1538	medals			1	1
+1539	medicine			1	1
+1540	Meg’s		1		1
+1541	mess			1	1
+1542	might			1	1
+1543	Mike’s	1			1
+1544	Miki’s		1		1
+1545	minute	1			1
+1546	mixed			1	1
+1547	Monday	1			1
+1548	Monet		1		1
+1549	monorail	1			1
+1550	more-than			1	1
+1551	mostly			1	1
+1552	motif			1	1
+1553	motor		1		1
+1554	motors		1		1
+1555	motto		1		1
+1556	mountain’s			1	1
+1557	musicians			1	1
+1558	mustn’t		1		1
+1559	myself			1	1
+1560	Nazis		1		1
+1561	needs	1			1
+1562	neither			1	1
+1563	nest			1	1
+1564	net			1	1
+1565	netiquette			1	1
+1566	New-York- Mets		1		1
+1567	New-York- Yankees		1		1
+1568	nineteen	1			1
+1569	nineteenth	1			1
+1570	ninety		1		1
+1571	ninth	1			1
+1572	noon	1			1
+1573	no-problem			1	1
+1574	not-all		1		1
+1575	note	1			1
+1576	notebooks		1		1
+1577	nothing			1	1
+1578	nothing-is- wrong-with			1	1
+1579	office		1		1
+1580	oh-my	1			1
+1581	oh-no	1			1
+1582	on-behalf-of			1	1
+1583	ones		1		1
+1584	on-the-other- hand		1		1
+1585	opened			1	1
+1586	opera		1		1
+1587	organization			1	1
+1588	over-and- over-again		1		1
+1589	oxygen		1		1
+1590	paint			1	1
+1591	painter		1		1
+1592	pairs			1	1
+1593	panels	1			1
+1594	paper			1	1
+1595	Papua			1	1
+1596	pardon	1			1
+1597	parties		1		1
+1598	pass		1		1
+1599	Paulo’s		1		1
+1600	P-E		1		1
+1601	pens		1		1
+1602	performance			1	1
+1603	pet		1		1
+1604	pets		1		1
+1605	photographer		1		1
+1606	placed			1	1
+1607	planet			1	1
+1608	planning			1	1
+1609	plate		1		1
+1610	platform			1	1
+1611	pockets			1	1
+1612	point		1		1
+1613	Poland			1	1
+1614	polite		1		1
+1615	pool		1		1
+1616	postal			1	1
+1617	potluck		1		1
+1618	Potluck-Party		1		1
+1619	presents		1		1
+1620	previous	1			1
+1621	priest			1	1
+1622	pro		1		1
+1623	programmer		1		1
+1624	programs	1			1
+1625	promised			1	1
+1626	pull		1		1
+1627	pulls		1		1
+1628	purpose			1	1
+1629	pushes		1		1
+1630	quarrel	1			1
+1631	quarreled	1			1
+1632	quite		1		1
+1633	quiz	1			1
+1634	rackets		1		1
+1635	radio		1		1
+1636	raise	1			1
+1637	ran-away		1		1
+1638	reading-out		1		1
+1639	realize			1	1
+1640	rear		1		1
+1641	recorded			1	1
+1642	Red-Caps	1			1
+1643	reflect			1	1
+1644	remember			1	1
+1645	reminds-of			1	1
+1646	repeat	1			1
+1647	report			1	1
+1648	reported	1			1
+1649	respected	1			1
+1650	respects	1			1
+1651	rich-in			1	1
+1652	ridden			1	1
+1653	righ-now	1			1
+1654	ringing	1			1
+1655	rivers			1	1
+1656	rode			1	1
+1657	rodeos	1			1
+1658	rubber			1	1
+1659	run	1			1
+1660	Russia			1	1
+1661	sailboats	1			1
+1662	salad		1		1
+1663	sandwich		1		1
+1664	saying			1	1
+1665	scarier			1	1
+1666	scenery	1			1
+1667	season			1	1
+1668	Seattle- Tacoma	1			1
+1669	sell			1	1
+1670	seventeen	1			1
+1671	seventeenth	1			1
+1672	Severn			1	1
+1673	shall			1	1
+1674	shape			1	1
+1675	shapes		1		1
+1676	share-with		1		1
+1677	she’ll			1	1
+1678	Sherman	1			1
+1679	she’s-sure		1		1
+1680	ship			1	1
+1681	shirt	1			1
+1682	shore	1			1
+1683	shortest		1		1
+1684	shouting			1	1
+1685	side			1	1
+1686	sightseeing			1	1
+1687	signs		1		1
+1688	site	1			1
+1689	sixteen	1			1
+1690	sixteenth	1			1
+1691	sixth	1			1
+1692	skied		1		1
+1693	sleeping-bag	1			1
+1694	sleeping- bags	1			1
+1695	sleepy			1	1
+1696	slope		1		1
+1697	slow			1	1
+1698	smell		1		1
+1699	snacks		1		1
+1700	softer		1		1
+1701	softly			1	1
+1702	sold			1	1
+1703	solutions			1	1
+1704	someone			1	1
+1705	Spain		1		1
+1706	speaker			1	1
+1707	Speakers’- Corner			1	1
+1708	special		1		1
+1709	species			1	1
+1710	speeches			1	1
+1711	speed			1	1
+1712	spell		1		1
+1713	spies		1		1
+1714	spoke	1			1
+1715	spoken			1	1
+1716	sport		1		1
+1717	stage		1		1
+1718	stamping			1	1
+1719	started-off			1	1
+1720	starts			1	1
+1721	stayed			1	1
+1722	stepped		1		1
+1723	Stockholm		1		1
+1724	stones		1		1
+1725	store			1	1
+1726	strawberries			1	1
+1727	stream			1	1
+1728	strictly		1		1
+1729	stronger			1	1
+1730	struck			1	1
+1731	styles			1	1
+1732	subject		1		1
+1733	suburbs		1		1
+1734	such-as			1	1
+1735	suddenly			1	1
+1736	sunny		1		1
+1737	surprising		1		1
+1738	swallowed		1		1
+1739	swam		1		1
+1740	table			1	1
+1741	Tacoma	1			1
+1742	take-a-breath	1			1
+1743	take-a-look- at	1			1
+1744	takes	1			1
+1745	tall		1		1
+1746	taller		1		1
+1747	Tamil	1			1
+1748	tasted			1	1
+1749	teachers	1			1
+1750	teaches		1		1
+1751	teeth			1	1
+1752	telegram		1		1
+1753	tenth	1			1
+1754	tents	1			1
+1755	thanked	1			1
+1756	thanks-a-lot			1	1
+1757	thanks-for	1			1
+1758	thank-you-for	1			1
+1759	thank-you- letters			1	1
+1760	the-Alps		1		1
+1761	theirs	1			1
+1762	theme			1	1
+1763	the- Missionaries- of-Charity	1	1
+1764	themselves			1	1
+1765	the-Nobel- Peace-Prize		1		1
+1766	the-other-day			1	1
+1767	these-days			1	1
+1768	the-Thames			1	1
+1769	thinking		1		1
+1770	thinks		1		1
+1771	third	1			1
+1772	thirteen	1			1
+1773	thirteenth	1			1
+1774	those	1			1
+1775	thousand		1		1
+1776	through			1	1
+1777	Thursday	1			1
+1778	ticket		1		1
+1779	Tok-Pidgin			1	1
+1780	Tokyo- Olympics		1		1
+1781	Tokyo-Tower		1		1
+1782	touched	1			1
+1783	touches	1			1
+1784	tour		1		1
+1785	training		1		1
+1786	Trapp		1		1
+1787	traveled		1		1
+1788	trips		1		1
+1789	trying			1	1
+1790	twelfth	1			1
+1791	twentieth	1			1
+1792	twenty-first	1			1
+1793	twenty-one	1			1
+1794	twenty- second	1			1
+1795	twenty-third	1			1
+1796	twenty-three	1			1
+1797	twenty-two	1			1
+1798	typed	1			1
+1799	UK			1	1
+1800	UK.		1		1
+1801	understood	1			1
+1802	unfriendly		1		1
+1803	uniform	1			1
+1804	until			1	1
+1805	useful		1		1
+1806	useless			1	1
+1807	vacations		1		1
+1808	vanishing			1	1
+1809	vet		1		1
+1810	Victor	1			1
+1811	video-game		1		1
+1812	video-games	1			1
+1813	view			1	1
+1814	wait-for			1	1
+1815	waiting-for			1	1
+1816	walls		1		1
+1817	wants		1		1
+1818	warmer		1		1
+1819	warn		1		1
+1820	was-able-to		1		1
+1821	was-covered- with			1	1
+1822	was- surprised-at			1	1
+1823	watch-your- step		1		1
+1824	weakly			1	1
+1825	weddings		1		1
+1826	weeks		1		1
+1827	welcome-to	1			1
+1828	weren’t		1		1
+1829	Western	1			1
+1830	what-do-you- mean-by			1	1
+1831	what’s-the- matter			1	1
+1832	what’s-up		1		1
+1833	what’s- wrong-with			1	1
+1834	wheels			1	1
+1835	whenever			1	1
+1836	whistled	1			1
+1837	why-not	1			1
+1838	wind		1		1
+1839	winners		1		1
+1840	wish			1	1
+1841	wondered		1		1
+1842	word			1	1
+1843	worried			1	1
+1844	worries	1			1
+1845	would-you		1		1
+1846	writes		1		1
+1847	www	1			1
+1848	yoga		1		1
+1849	you’re- welcome	1			1
+1850	zoo	1			1
+
+
+
+
+

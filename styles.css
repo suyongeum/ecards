@@ -1,0 +1,25 @@
+.role {
+    text-align: center;
+}
+
+.name{
+    color: #005f98;
+}
+
+.container {
+    margin: 10px;
+    padding: 10px;
+}
+
+.imageholder {
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+    width: 220px;
+    text-align: center;
+}
+
+.text-primary {
+    margin: 0 0 20px 0;
+}
+
+

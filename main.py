@@ -1,5 +1,15 @@
 from gtts import gTTS
 import os
+import urllib.request
+#import requests
+from bs4 import BeautifulSoup
+import re
+from spellchecker import SpellChecker
+import pdfplumber
+import io
+import random
+import time
+
 
 def get_audio():
 
@@ -14,6 +24,8 @@ def get_audio():
     localpath = 'audios\\'
     
     for word in db:
+        rand_int = random.randint(1, 11)
+        time.sleep(rand_int*0.01)
         speech    = gTTS(text = word, lang = language, slow = False)
         file_name = basepath + localpath + word + ".mp3"
         speech.save(file_name)
@@ -21,38 +33,193 @@ def get_audio():
 
 def make_db():
 
-    file_name  = 'data\senior_high_school_Ewords'
+    file_name  = 'db\senior_high_school_Ewords_db'
 
     file_read  = basepath + file_name
-    file_write = basepath + file_name + "_db"
+    #file_write = basepath + file_name + "_db"
 
     f_r = open(file_read,"r",encoding='utf-8')
     lines = f_r.readlines()
-    f_w = open(file_write,"w")
+    #f_w = open(file_write,"w")
 
-    index = 0
     db = {};
     for line in lines:
-        if index != 0:
-            word       = line.split('\t')[0]
-            frequency  = line.split('\t')[1]
-            senior     = line.split('\t')[2]
-            junior     = line.split('\t')[3]
-            elementary = line.split('\t')[4].rstrip()
-            #print(line, word, senior, junior, elementary)
-            #print(index, word, frequency, senior, junior, elementary)
-            db[word] = [frequency, senior, junior, elementary]
-            #print(index, word)
-            index = index + 1
-        else:
-            index = index + 1
+        word       = line.split(' ')[0]
+        frequency  = line.split(' ')[1]
+        senior     = line.split(' ')[2]
+        junior     = line.split(' ')[3]
+        elementary = line.split(' ')[4].rstrip()
+        #print(line, word, senior, junior, elementary)
+        #print(index, word, frequency, senior, junior, elementary)
+        db[word] = [frequency, senior, junior, elementary]
+        #print(index, word)
 
     f_r.close()
-    f_w.close()
+    #f_w.close()
 
     return db
 
-def web_scraping():
+def web_scraping_meaning():
+
+    db_word = make_db()
+
+    # pronunciation 
+    file_name  = 'db\senior_high_school_Ewords_meaning'
+    file_write = basepath + file_name + '_db'
+    
+    for word in db_word:     
+        f_w = open(file_write,"a", encoding="utf-8")  
+        req = urllib.request.Request('https://ejje.weblio.jp/content/'+ word,
+                                 headers={'User-Agent': 'PracticalMachineLearning'})
+        #respose from server
+        f = urllib.request.urlopen(req)
+
+        # bs object out of html respose
+        soup = BeautifulSoup(f.read(), "html.parser")
+        metatags = soup.findAll('meta')
+
+        meaning = str(metatags[-1]).split(':')[1]
+        meaning = meaning.split('"')[0]
+        meaning = meaning.strip()
+
+        data = word + " " + meaning + "\n"
+
+        # file writing
+        f_w.write(data)
+
+        # file writing closing            
+        f_w.close()
+
+        # closing http request
+        f.close()
+
+    return 0
+
+def web_scraping_pronunciation():
+
+    db_word = make_db()
+
+    #word = 'ability'
+    url = 'https://en.hatsuon.info/word/'
+
+    # pronunciation 
+    file_name  = 'data\senior_high_school_Ewords'
+    file_write = basepath + file_name + '_db'
+    
+    for word in db_word:     
+        f_w = open(file_write,"a", encoding="utf-8")  
+        req = urllib.request.Request(url+ word,
+                                    headers={'User-Agent': 'PracticalMachineLearning'})
+        #respose from server
+        f = urllib.request.urlopen(req)
+
+        # bs object out of html respose
+        soup = BeautifulSoup(f.read(), "html.parser")
+        text = soup.find_all("div", {"class": "font4"})
+
+        # extract pronunciation.
+        pronunciation = []
+        for item in text:
+            temp = re.sub(r'.*</font>', '', str(item))
+            temp = re.sub(r'<a.*', '', temp)
+            temp = re.sub(r'</div>', '', temp) 
+            pronunciation.append(str(temp).strip())
+
+        # write db
+        pronunciation_en = pronunciation[0]
+        pronunciation_jp = pronunciation[1]
+        frequency        = db_word[word][0]
+        senior           = db_word[word][1]
+        junior           = db_word[word][2]
+        elementary       = db_word[word][3]
+
+        data = word+" "+pronunciation_en+" "+pronunciation_jp+" "+frequency+" "+senior+" "+junior+" "+elementary+"\n"
+
+        # file writing
+        f_w.write(data)
+
+        # file writing closing            
+        f_w.close()
+
+        # closing http request
+        f.close()
+
+    return 0
+
+def web_scraping_sentence():
+
+    # max num sentences
+    MAX = 5
+
+    db_word = make_db()
+
+    # pronunciation 
+    file_name  = 'db\senior_high_school_Ewords_sentence'
+    file_write = basepath + file_name + '_db'
+    
+    for word in db_word:     
+        f_w = open(file_write,"a", encoding="utf-8")  
+        req = urllib.request.Request('https://www.ei-navi.jp/dictionary/content/'+ word,
+                                 headers={'User-Agent': 'PracticalMachineLearning'})
+        #respose from server
+        f = urllib.request.urlopen(req)
+ 
+        # bs object out of html respose
+        soup = BeautifulSoup(f.read(), "html.parser")
+        sentences_en = soup.find_all('li',{'class': "en"})
+        sentences_jp = soup.find_all('li',{'class': "ja"})
+
+        #######################################################
+        # check whether it has sentences or not
+        if len(sentences_en) ==0:
+            sentences_en = soup.find_all('blockquote')
+            for item in sentences_en.find_all('p'):          
+
+            sentences_jp = soup.find_all('blockquote')
+        #######################################################
+        
+
+        #clean eng sentence
+        sentence_en_all = []
+        for item in sentences_en:     
+            item = item.contents
+            sentence = ''
+            for i in item:
+                sentence = sentence + str(i.contents[0])
+            sentence_en_all.append(sentence)
+            if len(sentence_en_all) == MAX:
+                break            
+        
+        #clean jp sentence
+        sentence_jp_all = []
+        for item in sentences_jp:     
+            item = item.contents
+            sentence = ''
+            for i in item:
+                sentence = sentence + str(i.contents[0])
+            sentence_jp_all.append(sentence)
+            if len(sentence_jp_all) == MAX:
+                break   
+        
+        row = '| '
+        for en, jp in zip(sentence_en_all, sentence_jp_all):
+            if en == sentence_en_all[-1]:
+                row = row + en + " " + jp 
+            else:
+                row = row + en + " " + jp + " | "
+        row = row + '\n'
+ 
+        #print(row)
+
+        # file writing
+        f_w.write(row)
+        
+        # file writing closing            
+        f_w.close()
+
+        # closing http request
+        f.close()
+
     return 0
 
 def check_directory():
@@ -77,13 +244,137 @@ def check_directory():
 
     return not_done_list
 
+def check_words():
+
+    spell = SpellChecker()
+
+    db_word = make_db()
+
+    list_words = []
+    for word in db_word:
+        list_words.append(word)
+    
+    misspelled = spell.unknown(list_words)
+    for word in misspelled:
+        print(word, spell.candidates(word))
+
+    return 0
+
+def read_pdf():
+    # creating a pdf file object
+    file_name  = 'data\senior_high_school_Ewords.pdf'
+    fullpath   = basepath + file_name
+    small_ABC  = 'abcdefghijklmnopqrstuvwxyz'
+
+    file_write = basepath + 'data\enior_high_school_Ewords'
+
+    f_w = open(file_write,"w", encoding="utf-8")
+
+    with pdfplumber.open(fullpath) as pdf:
+        #first_page = pdf.pages[6]
+        #first_page = pdf.pages[20]
+        index = 1
+        for i in range(6, 21): #6-20
+            page = pdf.pages[i]
+            lines_ =  page.extract_text()
+            buf = io.StringIO(lines_)
+            lines = buf.readlines()
+            for line in lines:
+                if line[0] in small_ABC or line[0] in 'I': # real row selection
+                    #result = re.split(r"([a-z]+)", line)
+                    result = re.split("\s", line)
+                    row = []
+                    for item in result:  # splited small items
+                        if item != '':
+                            row.append(item)
+                            if len(row) == 5:
+                                print (index, row)
+                                for i in row:
+                                    f_w.write(i + " ")
+                                f_w.write('\n')
+                                index = index + 1
+                                row = []          
+                    
+        f_w.close()
+
+    return 0
+
+def clean_web_scraping_db():
+    # creating a pdf file object
+    file_name  = 'data\senior_high_school_Ewords_db'
+    fullpath   = basepath + file_name
+    small_ABC  = 'abcdefghijklmnopqrstuvwxyz'
+
+    file_read  = basepath + 'data\senior_high_school_Ewords_scraped'
+    file_write = basepath + 'db\senior_high_school_Ewords_pronunciation_db'
+
+    f_w = open(file_write,"w", encoding="utf-8")
+    f_r = open(file_read,encoding="utf-8")
+
+    lines = f_r.readlines()
+
+    index = 1
+    for line in lines:
+        items = line.split(' ')
+
+        eng_p = []
+        jp_p  = []
+        for i in range(0, len(items)):   
+            item = items[i].strip(',').strip(';').strip('|').strip('\n').strip('−')
+            item = re.sub('\s+', '', item)
+            item = re.sub('\(\(関係代名詞の弱形\)\)', '', item)
+            if i == 0:
+                word = item
+                continue
+            else:
+                if not re.search('[0-9]', item) and item !='': # not number 
+                    if re.search('[a-zA-Z]', item) or 'ʃ' in item or 'θ' in item:
+                        eng_p.append(item)
+                    else:
+                        jp_p.append(item)
+        f_w.write(word)
+        f_w.write(' || ')
+        for item in eng_p:
+            if item == eng_p[-1]:
+                f_w.write(item)
+            else:
+                f_w.write(item)
+                f_w.write(", ")
+        f_w.write(' || ')
+        for item in jp_p:
+            if item == jp_p[-1]:
+                f_w.write(item)
+            else:
+                f_w.write(item)
+                f_w.write(", ")
+        f_w.write('\n')
+            
+        # print(index, word)
+        # print(eng_p)
+        # print(jp_p)
+        # index = index + 1
+          
+    f_w.close()
+    f_r.close() 
+
+    return 0
+
+def generate_html():
+
+    return 0
 
 # Press the green button in the gutter to run the script.
-basepath   = 'F:\EDIC_project\ecards\\'
+basepath   = 'D:\projects\ecards\\'
 
 if __name__ == '__main__':
 
-    #make_db()
-    #check_directory()
-    #web_scraping()
-    get_audio()
+    # read from pdf and extract data
+    # read_pdf()    
+    # make_db()
+    # check_directory()
+    web_scraping_sentence()
+    # web_scraping_meaning()
+    # web_scraping_pronunciation()
+    # clean_web_scraping_db()
+    # get_audio()    
+    #generate_html()

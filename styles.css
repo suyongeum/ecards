@@ -1,25 +1,73 @@
-.role {
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #81c644;
+    font-family: 'Allura', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper {
+    margin-top: 10%;
+}
+
+.wrapper h1 {
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
     text-align: center;
 }
 
-.name{
-    color: #005f98;
-}
-
-.container {
-    margin: 10px;
-    padding: 10px;
-}
-
-.imageholder {
-    margin: 0 auto;
-    padding: 0 0 20px 0;
-    width: 220px;
+.words {
+    display: flex;
     text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.text-primary {
-    margin: 0 0 20px 0;
+.words .each_word {
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    word-wrap: 300px;
+    padding: 20px;
+    Line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
 }
 
+.words .each_word h3 {
+    color: #81c644;
+    font-size: 26px;
+    margin-top: 50px;
+}
 
+.words .each_word p.meaning {
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.words .each_word .each_word_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+}
+
+.words .each_word .each_word_img img {
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+}

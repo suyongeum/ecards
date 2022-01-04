@@ -1,10 +1,9 @@
 from gtts import gTTS
 import os
 import urllib.request
-#import requests
+import requests
 from bs4 import BeautifulSoup
 import re
-from spellchecker import SpellChecker
 import pdfplumber
 import io
 import random
@@ -58,6 +57,30 @@ def make_db():
     #f_w.close()
 
     return db
+
+def modify_file():
+
+    db_word = make_db()
+
+    # pronunciation 
+    file_name  = 'db\senior_high_school_Ewords_sentence_db'
+    file_read  = basepath + file_name
+    file_write = basepath + file_name + '_modify'  
+
+    f_r = open(file_read, encoding="utf-8") 
+    f_w = open(file_write,"a", encoding="utf-8")  
+
+    lines = f_r.readlines()
+
+    for word, line in zip(db_word, lines):     
+        row = word + line
+        f_w.write(row)
+
+    # file writing closing            
+    f_w.close()
+    f_r.close()
+
+    return 0
 
 def web_scraping_meaning():
 
@@ -171,35 +194,36 @@ def web_scraping_sentence():
 
         #######################################################
         # check whether it has sentences or not
-        if len(sentences_en) ==0:
-            sentences_en = soup.find_all('blockquote')
-            for item in sentences_en.find_all('p'):          
-
-            sentences_jp = soup.find_all('blockquote')
-        #######################################################
-        
-
-        #clean eng sentence
         sentence_en_all = []
-        for item in sentences_en:     
-            item = item.contents
-            sentence = ''
-            for i in item:
-                sentence = sentence + str(i.contents[0])
-            sentence_en_all.append(sentence)
-            if len(sentence_en_all) == MAX:
-                break            
-        
-        #clean jp sentence
         sentence_jp_all = []
-        for item in sentences_jp:     
-            item = item.contents
-            sentence = ''
-            for i in item:
-                sentence = sentence + str(i.contents[0])
-            sentence_jp_all.append(sentence)
-            if len(sentence_jp_all) == MAX:
-                break   
+        count = 1
+        if len(sentences_en) ==0:
+            for each_blockquote in soup.find_all('blockquote'):
+                for onesentence in each_blockquote.find_all('p'):
+  
+                    if onesentence.find('cite'):
+                        onesentence.cite.decompose()
+
+                    if count%2 == 1: # english
+                        sentence_en_all.append(onesentence.text)
+                        count = count + 1
+                    else:            # japanese
+                        sentence_jp_all.append(onesentence.text)
+                        count = count + 1
+
+                if len(sentence_en_all) == MAX:
+                    break 
+        else:          
+            #clean eng sentence
+            for item in sentences_en:  
+                sentence_en_all.append(item.text)
+                if len(sentence_en_all) == MAX:
+                    break            
+            #clean jp sentence
+            for item in sentences_jp:     
+                sentence_jp_all.append(item.text)
+                if len(sentence_jp_all) == MAX:
+                    break   
         
         row = '| '
         for en, jp in zip(sentence_en_all, sentence_jp_all):
@@ -207,6 +231,8 @@ def web_scraping_sentence():
                 row = row + en + " " + jp 
             else:
                 row = row + en + " " + jp + " | "
+            row = re.sub(r'\u3000','',row)
+
         row = row + '\n'
  
         #print(row)
@@ -359,22 +385,64 @@ def clean_web_scraping_db():
 
     return 0
 
+def icons8com():
+
+    # url = "https://search.icons8.com/api/iconsets/v5/search?term=ability&token=eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf"
+    # headers={'x-api-key':'eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf'}
+    # resp = requests.get(url,headers=headers)
+
+    # print(resp.status_code)
+    # print(resp.content)
+    # print(resp)
+
+    # url = "https://api-icons.icons8.com/publicApi/icons/icon?id=9bLZQZMri5Xi&token=eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf"
+    # headers={'x-api-key':'eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf'}
+    # resp = requests.get(url,headers=headers)
+
+    # print(resp.status_code)
+    # print(resp.content.icon.svg)
+    # print(resp) 
+
+    return 0
+
 def generate_html():
 
     return 0
 
 # Press the green button in the gutter to run the script.
-basepath   = 'D:\projects\ecards\\'
+# basepath   = 'D:\projects\ecards\\'         # HOME
+basepath   = 'F:\EDIC_project\ecards\\'     # WORK
 
 if __name__ == '__main__':
 
-    # read from pdf and extract data
-    # read_pdf()    
-    # make_db()
-    # check_directory()
-    web_scraping_sentence()
+    # ###############################
+    # Scrapping codes
+    # web_scraping_sentence()
     # web_scraping_meaning()
     # web_scraping_pronunciation()
+
+    #################################
+    # Parsing pdf and extract data
+    # read_pdf()    
+
+    ################################
+    # Read 'senior_high_school_Ewords_db' and return words.
+    # make_db()
+
+    ################################
+    # Utilities
+    # check_directory()  
     # clean_web_scraping_db()
+    # modify_file()
+
+    ################################
+    # mp3 for each word
     # get_audio()    
-    #generate_html()
+
+    ################################
+    # icon8s.com image API
+    icons8com()
+
+    ################################
+    # html generation
+    # generate_html()

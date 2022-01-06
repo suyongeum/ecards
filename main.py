@@ -390,40 +390,51 @@ def icons8com():
     # https://freeicons.io/
     # icons8.com
 
-    # First
-    word = 'ability'
+    MAX = 10
+    #########################################
+    # First: get the word list
 
-    # Second: search ids
-    url = "https://search.icons8.com/api/iconsets/v5/search?term=" + word +"&token=eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf"
-    headers={'x-api-key':'eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf'}
-    resp = requests.get(url,headers=headers)
+    db_word = make_db()
 
-    ids = []
-    for item in resp.json()["icons"]:
-        ids.append(item["id"])
-   
-    if resp.status_code == 200:
-        print('success')
-    else:
-        return 0
+    for word in db_word:
 
+        word = 'ability'
 
-    for image_id in ids:
-
-        #image_id = '9bLZQZMri5Xi'
-
-        url = "https://api-icons.icons8.com/publicApi/icons/icon?id=" + image_id + "&token=eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf"
+        # Second: search ids
+        url = "https://search.icons8.com/api/iconsets/v5/search?term=" + word +"&token=eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf"
         headers={'x-api-key':'eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf'}
         resp = requests.get(url,headers=headers)
 
+        ids = []
+        for item in resp.json()["icons"]:
+            ids.append(item["id"])
+    
         if resp.status_code == 200:
-            image           = resp.json()["icon"]["svg"]
-            file_write      = basepath + 'images\\' + word  + "_" + image_id + '.svg'
-            f_w             = open(file_write, "w")
-            f_w.write(image)
-            f_w.close()        
+            print('success')
         else:
-            print("No matching icon: ", word)
+            return 0
+
+
+        for image_id in ids:
+
+            #image_id = '9bLZQZMri5Xi'
+
+            url = "https://api-icons.icons8.com/publicApi/icons/icon?id=" + image_id + "&token=eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf"
+            headers={'x-api-key':'eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf'}
+            resp = requests.get(url,headers=headers)
+
+            if resp.status_code == 200:
+                image           = resp.json()["icon"]["svg"]
+
+                print (len(image))
+
+
+                file_write      = basepath + 'images\\' + word  + "_" + image_id + '.svg'
+                f_w             = open(file_write, "w")
+                f_w.write(image)
+                f_w.close()        
+            else:
+                print("No matching icon: ", word)
 
     return 0
 
@@ -432,8 +443,8 @@ def generate_html():
     return 0
 
 # Press the green button in the gutter to run the script.
-basepath   = 'D:\projects\ecards\\'         # HOME
-# basepath   = 'F:\EDIC_project\ecards\\'     # WORK
+# basepath   = 'D:\projects\ecards\\'         # HOME
+basepath   = 'F:\EDIC_project\ecards\\'     # WORK
 
 if __name__ == '__main__':
 

@@ -44,15 +44,19 @@ body {
 
 .words .each_word h3 {
     color: #81c644;
-    font-size: 26px;
+    font-size: 100px;
     margin-top: 50px;
 }
 
-.words .each_word p.meaning {
+/* .words .each_word p.meaning {
     color: #ccc;
     font-size: 12px;
     text-transform: uppercase;
     margin: 12px 0;
+} */
+
+span {
+    display: block; 
 }
 
 .words .each_word .each_word_img {

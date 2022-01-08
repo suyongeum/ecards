@@ -46,17 +46,21 @@ body {
     color: #81c644;
     font-size: 100px;
     margin-top: 50px;
+    margin: 40px 5px 20px 5px;
 }
 
-/* .words .each_word p.meaning {
-    color: #ccc;
-    font-size: 12px;
-    text-transform: uppercase;
-    margin: 12px 0;
-} */
+.words .each_word p {
+    text-align: left;
+}
 
-span {
-    display: block; 
+span.box {
+    background-color: #6d635d;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 5px 0 3px;
+    padding: 5px 2px 2px 2px !important;
+    text-align: center;
 }
 
 .words .each_word .each_word_img {
@@ -75,3 +79,15 @@ span {
     height: 100px;
     padding: 0px;
 }
+
+.float-container {
+    display: flex;
+}
+
+.float-child1 {
+    border: 2px solid yellow;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 

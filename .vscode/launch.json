@@ -10,6 +10,18 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
-        }
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "javascript:html",
+            "url": "http://localhost:5500/test.html"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "javascript",
+            "program": "${file}"
+        },
     ]
 }

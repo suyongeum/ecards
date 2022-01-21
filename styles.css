@@ -138,11 +138,12 @@ span.box {
 .sentence .right .en {
     margin-bottom: 2px;
     font-size: 18px;
+    color:rgb(9, 10, 51);
 }
 
 .sentence .right .jp {
     margin-bottom: 5px;
-    font-size: 14px;
+    font-size: 14px;    
 }
 
 button {

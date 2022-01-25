@@ -275,8 +275,6 @@ def check_directory():
 
 def check_words():
 
-    spell = SpellChecker()
-
     db_word = make_db()
 
     list_words = []
@@ -448,6 +446,27 @@ def audio_into_directory():
     
     return 0
 
+def generate_db():
+    
+    file_name  = 'db\senior_high_school_Ewords_json'
+    file_read  = basepath + file_name
+
+    f_r = open(file_read,"r",encoding='utf-8')
+    lines = f_r.readlines()
+
+    db = ''
+    index = 1
+    for line in lines:
+        db = db + line.rstrip().lstrip()
+        index = index + 1
+        if index % 100 == 0:
+            db = db + '\n'
+    
+    file_write  = basepath + 'db\senior_high_school_Ewords_json_no_space'
+    f_w = open(file_write, "w", encoding="utf-8")
+    f_w.write(db)
+    f_w.close()  
+
 # Press the green button in the gutter to run the script.
 # basepath   = 'D:\projects\ecards\\'         # HOME
 basepath   = 'F:\EDIC_project\ecards\\'     # WORK
@@ -483,8 +502,8 @@ if __name__ == '__main__':
     # icons8com()
 
     ################################
-    # html generation
-    # generate_html()
+    # making db without any space
+    generate_db()
 
     ################################
     # audio files save into a directory

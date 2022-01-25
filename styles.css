@@ -88,9 +88,9 @@ span.box {
 
 .meaning .left {    
     text-align:left;    
-    flex: 0 0 60px; /* do not grow, do not shrink, start at 250px */
+    flex: 0 0 65px; /* do not grow, do not shrink, start at 250px */
     /* border: 1px dashed #00f; */
-    margin: 0 0 0 0;    
+    margin: 0 10px 0 0;    
 }
 
 .meaning .right {
@@ -100,6 +100,8 @@ span.box {
     /* border: 1px dashed #f0f; */
     position:relative;
     top:-2px;    
+    margin: 1px 10px 10px 0;
+    line-height: 150%;
 }
 
 .pron_en .audioicon {
@@ -124,9 +126,9 @@ span.box {
 
 .sentence .left {
     text-align: left;
-    flex: 0 0 60px; /* do not grow, do not shrink, start at 250px */
+    flex: 0 0 65px; /* do not grow, do not shrink, start at 250px */
     /* border: 1px dashed #00f; */   
-    margin: 0 0 0 0;     
+    margin: 0 10px 0 0;     
 }
 
 .sentence .right {
@@ -143,7 +145,7 @@ span.box {
 
 .sentence .right .jp {
     margin-bottom: 5px;
-    font-size: 14px;    
+    font-size: 14px; 
 }
 
 button {

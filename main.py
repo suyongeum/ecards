@@ -8,6 +8,9 @@ import pdfplumber
 import io
 import random
 import time
+import string
+import shutil
+import glob
 
 
 def get_audio():
@@ -429,8 +432,20 @@ def icons8com():
 
     return 0
 
-def generate_html():
+def audio_into_directory():
 
+    path_to_audio = basepath + "audios\\";
+
+    for i in string.ascii_lowercase:
+        path        = os.path.join(path_to_audio, i)
+        os.mkdir(path)
+        #print(path)
+        source      = glob.glob(path_to_audio + str(i) + "*.mp3")
+        destination = path
+        for src in source:
+            shutil.move(src,destination)
+            #print(src, destination)
+    
     return 0
 
 # Press the green button in the gutter to run the script.
@@ -465,8 +480,12 @@ if __name__ == '__main__':
 
     ################################
     # icon8s.com image API
-    icons8com()
+    # icons8com()
 
     ################################
     # html generation
     # generate_html()
+
+    ################################
+    # audio files save into a directory
+    # audio_into_directory()

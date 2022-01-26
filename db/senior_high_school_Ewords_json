@@ -222,7 +222,7 @@
                 "junior":2,
                 "elementary":1,
                 "meaning":"(偶然または不慮のよくない)出来事,事故,災難,思いがけぬ出来事,偶然のこと,付随的な事柄",
-                "pronun_en":"ǽksəd<i>ə</i>nt",
+                "pronun_en":"ǽksədənt",
                 "pronun_jp":"アクサァダァントゥ",
                 "sentence_en":["Many accidents happen every year.","I had an accident at work.","Tom was in an accident.","Jimmy was hurt in a traffic accident.","His careless driving caused the accident."],
                 "sentence_jp":["毎年たくさんの事故が発生する。","私は仕事中に事故に遭った。","トムは事故に巻き込まれた。","ジミーは交通事故でけがをした。","彼の不注意な運転が事故を引き起こした。"]
@@ -354,7 +354,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"出現(すること),(会などに)姿を見せること,出席,出演,出場,出頭,出廷,(書物の)出版,発刊,(記事の)掲載",
-                "pronun_en":"əpí<i>ə</i>rəns",
+                "pronun_en":"əpíərəns",
                 "pronun_jp":"アピィアラァンス",
                 "sentence_en":["She has a friendly appearance.","Don't judge people by appearance.","He had the appearance of a sportsman.","He was deceived by her innocent appearance.","She managed to keep up appearances."],
                 "sentence_jp":["彼女は気さくに見える。","人を見かけで判断するな。","彼は外見はスポーツマンのようだった。","彼は彼女の無邪気な外見にだまされた。","彼女はなんとかして世間体をつくろった。"]
@@ -498,7 +498,7 @@
                 "junior":4,
                 "elementary":2,
                 "meaning":"面積,地域,地方,地区,区域,(特定の)場所,範囲,領域,地下勝手口",
-                "pronun_en":"é<i>ə</i>riə",
+                "pronun_en":"éəriə",
                 "pronun_jp":"エアリィア",
                 "sentence_en":["Everyone around the area works hard.","Tom doesn't like people who smoke in no smoking areas.","The area of Canada is greater than that of the United States.","He was successful in several areas.","He is an expert in the area of city planning."],
                 "sentence_jp":["その地域の周りの人は誰もがよく働く。","トムは禁煙場所で煙草を吸う人たちが嫌いだ。","カナダの面積はアメリカ合衆国の面積より大きい。","彼は複数の分野で成功を収めた。","彼は都市計画の分野の専門家だ。"]
@@ -1314,7 +1314,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"平均,平均値,(一般)標準,並(なみ)",
-                "pronun_en":"ǽv<i>ə</i>ridʒ",
+                "pronun_en":"ǽvəridʒ",
                 "pronun_jp":"アヴァリィヂュ",
                 "sentence_en":["He was a man of average height.","The average temperature has gone up.","What is the average life span in Japan?","My school grades were average.","His work is below average."],
                 "sentence_jp":["彼は平均的な背丈だ。","平均気温が上昇した。","日本での平均寿命はどれだけですか。","学校の成績は普通でしたよ。","彼の仕事は標準以下だ。"]
@@ -2706,7 +2706,7 @@
                 "junior":2,
                 "elementary":4,
                 "meaning":"カメラ,写真機,テレビカメラ,判事の私室",
-                "pronun_en":"kǽm<i>ə</i>rə",
+                "pronun_en":"kǽmərə",
                 "pronun_jp":"カァマァラァ",
                 "sentence_en":["I take my camera wherever I go.","These cameras are made in Japan.","I focused the camera on her face.","I am looking for a part-time job so I can buy a new video camera."],
                 "sentence_jp":["どこへ行くにもカメラを持って行きます。","これらのカメラは日本製です。","私は彼女の顔にカメラの焦点を合わせた。","新しいビデオカメラを買えるように、アルバイトの口を探しています。"]
@@ -3020,8 +3020,8 @@
                 "meaning":"カード,券,(絵・装飾をつけて印刷した)あいさつ状,招待状,案内状,賀状,献立表,メニュー,ワインリスト,名刺",
                 "pronun_en":"kɑ'ːrd",
                 "pronun_jp":"カァー（ル）ドゥ",
-                "sentence_en":["Take any two cards you like.","I forgot to bring my I.","He sent me a birthday card.","She played cards with Roy."],
-                "sentence_jp":["どれでも好きなカードを２枚取りなさい。","D","彼がバースデーカードを送ってくれた。","彼女はロイとトランプをした。"]
+                "sentence_en":["Take any two cards you like.","He sent me a birthday card.","She played cards with Roy."],
+                "sentence_jp":["どれでも好きなカードを２枚取りなさい。","彼がバースデーカードを送ってくれた。","彼女はロイとトランプをした。"]
             },
             {
                 "word":"blame",
@@ -3474,7 +3474,7 @@
                 "junior":0,
                 "elementary":1,
                 "meaning":"(肉体的に苦痛を与えない)快適な,気持ちのよい,(精神的・肉体的に不安がなく)安楽で,気持ちよくて,楽で,(安楽を与えることのできるほど)十分な,経済的にゆとりがあって,かなり裕福で,慰めを与える,落ち着かせる",
-                "pronun_en":"kʌ'mf<i>ə</i>rtəbl",
+                "pronun_en":"kʌ'mfərtəbl",
                 "pronun_jp":"カァンファ（ル）タァブル",
                 "sentence_en":["We are comfortable in our new house.","This is a comfortable chair.","Tom and Mary are very comfortable together.","Please make yourself comfortable.","I feel like I'm just getting comfortable with my homemaking chores."],
                 "sentence_jp":["私達は新居で快適に暮らしています。","座り心地の良い椅子です。","トムとメアリーはお互い、一緒にいるとくつろげる。","どうぞ楽にして下さい。","最近主婦業がやっと板についてきたって感じなのよねえ。"]
@@ -4134,7 +4134,7 @@
                 "junior":1,
                 "elementary":5,
                 "meaning":"チョコレート,(飲料の)チョコレート,チョコレート色",
-                "pronun_en":"tʃɔ'ːk<i>ə</i>lət, tʃɑ'k-, tʃɔ'k-",
+                "pronun_en":"tʃɔ'ːkələt, tʃɑ'k-, tʃɔ'k-",
                 "pronun_jp":"チョーカァラァトゥ, チャク, チョク",
                 "sentence_en":["I like chocolate.","Where's my box of chocolates?","Tom bought a bar of chocolate."],
                 "sentence_jp":["チョコレートが好きだ。","僕のチョコレートはどこだ。","トムは板チョコ一本を買った。"]
@@ -4242,7 +4242,7 @@
                 "junior":1,
                 "elementary":0,
                 "meaning":"大陸,ヨーロッパ大陸",
-                "pronun_en":"kɑ'nt<i>ə</i>nənt, kɔ'nti-",
+                "pronun_en":"kɑ'ntənənt, kɔ'nti-",
                 "pronun_jp":"カァンタァナァントゥ, コォンティィ",
                 "sentence_en":["Europe is a continent.","There are seven continents on the earth.","The continent is abundant in fossil fuels.","The Japan Sea separates Japan from the Asian Continent."],
                 "sentence_jp":["ヨーロッパは大陸です。","世界には７大陸がある。","その大陸は化石燃料が豊富だ。","日本海は日本とアジア大陸を隔てている。"]
@@ -4254,7 +4254,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"(出生または帰化により市民権をもつ)公民,国民,人民,(市や町の)市民,町民,都会人,(軍人・警官などに対して)民間人,一般人,住民",
-                "pronun_en":"sítəz<i>ə</i>n",
+                "pronun_en":"sítəzən",
                 "pronun_jp":"シィタァザァン（ヌ）",
                 "sentence_en":["She is a British citizen but her native land is France.","A good citizen obeys the laws."],
                 "sentence_jp":["彼女は英国の国民だが、生まれた国はフランスである。","善良な市民は法律に従う。"]
@@ -5058,7 +5058,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"異なるように,違ったふうに,(…と)異なって,違って,それと違って,別様に,別に",
-                "pronun_en":"díf<i>ə</i>rəntli",
+                "pronun_en":"dífərəntli",
                 "pronun_jp":"ディィファラァントゥリィ",
                 "sentence_en":["The younger generation looks at things differently.","I would act differently in your place.","I see life differently now.","My jacket is made differently from yours.","I now view life differently than I used to."],
                 "sentence_jp":["若い世代の人たちは、物事を違った目で見る。","私があなたの立場だったら、別の行動をするだろう。","今では人生に対する考え方が変わった。","僕の上着は君のと仕立て方が違う。","以前とは人生観も変わった。"]
@@ -5190,7 +5190,7 @@
                 "junior":0,
                 "elementary":2,
                 "meaning":"教養的な,修養上の,人文の,文化の,文化的な,培養上の,栽培上の",
-                "pronun_en":"kʌ'ltʃ<i>ə</i>rəl",
+                "pronun_en":"kʌ'ltʃərəl",
                 "pronun_jp":"カァルチャラァル",
                 "sentence_en":["Our company supports several cultural events.","He devoted himself to many cultural activities.","I think that cultural exchanges are important.","We have to consider the problem in the light of cultural differences."],
                 "sentence_jp":["私が働いている会社は、いくつかの文化事業を後援しています。","彼は多くの文化活動に専念した。","異文化交流は大切だと思います。","我々は文化の違いを考慮してその問題を考えなくてはいけない。"]
@@ -5286,7 +5286,7 @@
                 "junior":0,
                 "elementary":1,
                 "meaning":"物を知りたがる,好奇心の強い,もの好きな,せんさく好きな,(…を)知りたがって,したがって,好奇心をそそるような,珍しい,不思議な,奇異な",
-                "pronun_en":"kjú<i>ə</i>riəs",
+                "pronun_en":"kjúəriəs",
                 "pronun_jp":"キュゥアリィアス",
                 "sentence_en":["Small children are very curious.","He is curious about everything.","He was curious to see the inside.","He was curious to know her secret.","There is a curious story about an Englishman."],
                 "sentence_jp":["小さな子供は好奇心が旺盛です。","彼は全てに対して好奇心を持っている。","彼は内側を見たがった。","彼は彼女の秘密を知りたがっていた。","あるイギリス人についてのおもしろい話があります。"]
@@ -5550,7 +5550,7 @@
                 "junior":2,
                 "elementary":1,
                 "meaning":"危険な,危ない,物騒な",
-                "pronun_en":"déindʒ<i>ə</i>rəs",
+                "pronun_en":"déindʒərəs",
                 "pronun_jp":"デェィンヂャラァス",
                 "sentence_en":["He is very a dangerous man.","Lightning can be dangerous.","Social networking sites are dangerous for people under 13.","Smoking is dangerous to health.","It is dangerous to climb that mountain."],
                 "sentence_jp":["彼はとても危ない人だ。","稲妻は危険なこともある。","SNSは13歳未満の人にとって危険だ。","たばこは健康に害がある。","あの山に登るのは危険です。"]
@@ -6282,7 +6282,7 @@
                 "junior":6,
                 "elementary":0,
                 "meaning":"(特定の期間の)…の間ずっと,…の間中,(特定期間の)…の間のいつか,の間に",
-                "pronun_en":"djú<i>ə</i>riŋ, djúər-",
+                "pronun_en":"djúəriŋ, djúər-",
                 "pronun_jp":"デュゥアリィン（グ）, デュゥア（ル）",
                 "sentence_en":["The sun shines during the day.","I visited Hokkaido during summer vacation.","I ran out of money during my stay in India.","He will be in New York for two weeks."],
                 "sentence_jp":["太陽は昼間輝く。","夏休み中に北海道を訪れました。","インド滞在中にお金が底をついた。","彼はニューヨークに２週間いるでしょう。"]
@@ -6582,7 +6582,7 @@
                 "junior":2,
                 "elementary":2,
                 "meaning":"辞書,辞典",
-                "pronun_en":"díkʃənèri, -ʃ<i>ə</i>nəri",
+                "pronun_en":"díkʃənèri, -ʃənəri",
                 "pronun_jp":"ディィクシャネェリィ, シャナァリィ",
                 "sentence_en":["You should consult the dictionary.","Look up the phrase in your dictionary.","My father is, so to speak, a walking dictionary.","I need a Japanese-English dictionary.","I always keep three dictionaries at hand."],
                 "sentence_jp":["その辞書を引くべきである。","辞書でその句を調べなさい。","僕の父は、いわば生き字引だ。","私は和英辞書が必要だ。","私はいつも辞典を３冊手元に置いています。"]
@@ -6678,7 +6678,7 @@
                 "junior":3,
                 "elementary":1,
                 "meaning":"違い,相違,差異,相違点,(数・量の)差,差額,意見の相違,不和,争い,(国際間の)紛争",
-                "pronun_en":"díf<i>ə</i>rəns",
+                "pronun_en":"dífərəns",
                 "pronun_jp":"ディィファラァンス",
                 "sentence_en":["There are noticeable differences between the two.","There's a subtle difference in meaning between the two words.","There seems to be a difference in outlook between us.","The difference in their ages is six years.","You can see how much difference a few degrees can make."],
                 "sentence_jp":["両者の間には著しい違いがある。","その二つの語の間には微妙な意味の違いがある。","私たちの間には見解の相違があるようです。","彼らの年齢差は六歳です。","2、3度の気温の違いによって、いかに大きな変化を生じさせ得るかが理解できます。"]
@@ -6702,7 +6702,7 @@
                 "junior":6,
                 "elementary":2,
                 "meaning":"異なった,違った,別の,同じでない,(…と)異なった,種々の,いろいろな,並はずれた,変わった,独特の",
-                "pronun_en":"díf<i>ə</i>rənt",
+                "pronun_en":"dífərənt",
                 "pronun_jp":"ディィファラァントゥ",
                 "sentence_en":["We now turn to a different problem.","He came to see me in a different way.","Your philosophy of life is different than mine.","This year's fashions are completely different to last year's.","Baseball is different from cricket."],
                 "sentence_jp":["さて別の問題に入ります。","彼は私を違った観点から見るようになった。","君の人生観は僕のと違っているね。","今年のファッションは去年とはまったく違う。","野球はクリケットとは違う。"]
@@ -6906,7 +6906,7 @@
                 "junior":3,
                 "elementary":0,
                 "meaning":"経験,体験,(具体的な)経験",
-                "pronun_en":"ikspí<i>ə</i>riəns",
+                "pronun_en":"ikspíəriəns",
                 "pronun_jp":"イクスピィアリィアンス",
                 "sentence_en":["The experience will do you good.","He has experience in business.","He has experience of foreign travel.","He had little experience with international issues.","I experienced horse riding."],
                 "sentence_jp":["その経験はあなたのためになるだろう。","彼は商売の経験がある。","彼は海外旅行の経験がある。","彼は国際問題を扱う経験がほとんどない。","私は乗馬を体験した。"]
@@ -7014,7 +7014,7 @@
                 "junior":1,
                 "elementary":4,
                 "meaning":"基本の,初歩の,初等の,初歩的な,簡単な",
-                "pronun_en":"èləmént<i>ə</i>ri",
+                "pronun_en":"èləméntəri",
                 "pronun_jp":"エラァメェンタァリィ",
                 "sentence_en":["I went to elementary school in Nagoya.","Elementary education shall be compulsory.","This is an elementary mistake.","Elementary, my dear Watson."],
                 "sentence_jp":["私は名古屋の小学校に通った。","初等教育は義務であるとする。","これは単純なミスだ。","初歩的なことだよ、ワトソン君。"]
@@ -7314,7 +7314,7 @@
                 "junior":0,
                 "elementary":2,
                 "meaning":"工場,製造所",
-                "pronun_en":"fǽkt<i>ə</i>ri",
+                "pronun_en":"fǽktəri",
                 "pronun_jp":"ファクタァリィ",
                 "sentence_en":["My father works in a factory.","There is no factory in this village.","Our factories are working at full capacity.","This factory produces CD players.","Many factory workers consider themselves just an average Joe."],
                 "sentence_jp":["父は工場で働いている。","この村には工場は一つもない。","我々の工場はフル操業している。","この工場はＣＤプレーヤーを生産している。","工場労働者の多くは自分のことを平凡な人間だと思っている。"]
@@ -7482,7 +7482,7 @@
                 "junior":6,
                 "elementary":5,
                 "meaning":"家族,一家,(一家の)子供たち,(血縁関係のある)一家,一族,一門,家柄,名門,(共通の特質によって関係づけられた民族などの)一群,(マフィアなどの)暴力団の一家",
-                "pronun_en":"fǽm<i>ə</i>li",
+                "pronun_en":"fǽməli",
                 "pronun_jp":"ファマァリィ",
                 "sentence_en":["The family members nursed the patient in turns.","He is related to the family.","We want to have a large family.","My grandmother raised a family of ten.","Tiger lilies are one species of the lily family."],
                 "sentence_jp":["家族のものは交替で病人の看護をした。","彼はその一族に縁がある。","私たちは子供がたくさんほしい。","私の祖母は１０人の子供を育てた。","オニユリはユリ科に属する１つの種である。"]
@@ -7590,7 +7590,7 @@
                 "junior":1,
                 "elementary":0,
                 "meaning":"環境,周囲,四囲の状況,自然環境",
-                "pronun_en":"invái<i>ə</i>rənmənt",
+                "pronun_en":"inváiərənmənt",
                 "pronun_jp":"インヴァィアラァンマァントゥ",
                 "sentence_en":["Some factories pollute the environment.","The destruction of the rainforests affects our environment.","Children need a happy home environment.","The family assimilated quickly into their new environment."],
                 "sentence_jp":["環境を汚染する工場がある。","熱帯雨林の破壊は環境に影響を及ぼす。","子供には幸福な家庭環境が必要だ。","家族はまもなく新しい環境に溶け込んだ。"]
@@ -7614,7 +7614,7 @@
                 "junior":1,
                 "elementary":0,
                 "meaning":"環境の",
-                "pronun_en":"invài<i>ə</i>rənméntl",
+                "pronun_en":"invàiərənméntl",
                 "pronun_jp":"インヴァィアラァンメェントゥル",
                 "sentence_en":["Environmental problems call for quick action.","We had a lecture on environmental pollution.","Man has a great capacity to adapt to environmental changes."],
                 "sentence_jp":["環境問題は早急な行動を必要としている。","昨日環境汚染に関する講義を受けました。","人間は周囲の環境の変化に適応する能力が高い。"]
@@ -7734,7 +7734,7 @@
                 "junior":1,
                 "elementary":0,
                 "meaning":"(著名な人物または歴史的な事件などで特徴づけられる)時代,時期,紀元,代",
-                "pronun_en":"í<i>ə</i>rə, érə, íərə",
+                "pronun_en":"íərə, érə, íərə",
                 "pronun_jp":"イアラァエラァ, イアラァ",
                 "sentence_en":["This is the beginning of a new era.","The law was enacted in the Meiji era."],
                 "sentence_jp":["これは新時代の幕開けです。","その法律は明治時代に制定された。"]
@@ -7794,7 +7794,7 @@
                 "junior":6,
                 "elementary":4,
                 "meaning":"大のお気に入りの,特に好きな,得意な",
-                "pronun_en":"féiv<i>ə</i>rit",
+                "pronun_en":"féivərit",
                 "pronun_jp":"フェィヴァリィトゥ",
                 "sentence_en":["I added this website to my favorites.","Since the favorite and his rival were running against each other a dark horse like him was able to pull out in front.","Pizza is my favorite food.","Everybody has their favorite drink."],
                 "sentence_jp":["このサイトを私のお気に入りに入れました。","本命と対抗馬が競り合ったお陰で、ダークホースの彼が漁夫の利を得たってわけだ。","ピザは私の大好きな食べ物です。","お酒の好みは人それぞれですからね。"]
@@ -8466,7 +8466,7 @@
                 "junior":1,
                 "elementary":1,
                 "meaning":"(特殊でなく)一般の,全般の,普遍的な,全身の,(特定の部門に限らない)一般的な,雑多な,(詳細でなく)概括的な,大体の,概略の,世間一般の",
-                "pronun_en":"dʒén<i>ə</i>rəl",
+                "pronun_en":"dʒénərəl",
                 "pronun_jp":"ヂェナァラァル",
                 "sentence_en":["In general, Japanese are hardworking.","My general impression is that it is very good.","London developed into the general market of Europe.","In general people were against the consumption tax.","In general, she is an early riser."],
                 "sentence_jp":["一般に日本人は勤勉だ。","私の全体的な印象ではそれは非常によい。","ロンドンは発展してヨーロッパの一般市場になった。","概して人々は消費税に反対だった。","彼女は普段早起きだ。"]
@@ -8490,7 +8490,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"一般に,広く,あまねく,多くの人に,普通(は),通例,通常,概して,大体,大体において",
-                "pronun_en":"dʒén<i>ə</i>rəli",
+                "pronun_en":"dʒénərəli",
                 "pronun_jp":"ヂェナァラァリィ",
                 "sentence_en":["I generally have lunch there.","The men are generally tired when they come back from work.","Students generally like a teacher who understands their problems.","That theory is generally accepted.","Generally speaking, history repeats itself."],
                 "sentence_jp":["普通はそこで昼食を食べます。","彼らはたいてい仕事から帰ると疲れている。","学生は、概して自分たちの抱えている問題を理解してくれる教師が好きだ。","その理論は広く承認されている。","一般的にいえば、歴史は繰り返す。"]
@@ -9870,7 +9870,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"葬式,葬儀,告別式,葬列,いやな(仕)事,なすべきこと,責任",
-                "pronun_en":"fjúːn<i>ə</i>rəl",
+                "pronun_en":"fjúːnərəl",
                 "pronun_jp":"フュゥーナァラァル",
                 "sentence_en":["A great many people attended his funeral.","The lady's funeral was held at the local church.","I saw them at the funeral today."],
                 "sentence_jp":["彼の葬式には大勢の人が参列した。","その婦人の葬式は地元の教会で行われた。","今日葬式で彼らを見た。"]
@@ -10338,7 +10338,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"重要(性),重大さ,重要な地位,重み,貫禄(かんろく),尊大さ,もったいぶり",
-                "pronun_en":"impɔ'ːrt<i>ə</i>ns",
+                "pronun_en":"impɔ'ːrtəns",
                 "pronun_jp":"インポォー（ル）タァンス",
                 "sentence_en":["Peace is of great importance.","The teacher stressed the importance of daily practice.","I attach little importance to a person's appearance.","He is a person of importance."],
                 "sentence_jp":["平和はとても大切です。","先生は毎日の練習の大切さを強調した。","私は人の外見にはほとんど重要性を置かない。","彼は重要人物だ。"]
@@ -10362,7 +10362,7 @@
                 "junior":6,
                 "elementary":1,
                 "meaning":"重要な,重大な,大切な,重要で,重大で,(さらに)重要なことには,有力な,影響力のある,(社会的に)重要な,著名な",
-                "pronun_en":"impɔ'ːrt<i>ə</i>nt",
+                "pronun_en":"impɔ'ːrtənt",
                 "pronun_jp":"インポォー（ル）タァントゥ",
                 "sentence_en":["Health is an important factor of happiness.","It is important to help each other.","It is important that you should be punctual.","It's important for them to go out.","The most important thing in life is to be yourself."],
                 "sentence_jp":["健康は幸福の重要な要因だ。","助け合うことは大切である。","時間を守ることは大事である。","彼らにとって、外に出かけるのは大切なことです。","人生において一番大切なのは、自分らしく生きることです。"]
@@ -10518,7 +10518,7 @@
                 "junior":1,
                 "elementary":2,
                 "meaning":"英雄,勇士,崇拝される人物,(詩・劇・小説などの)主人公,主要人物",
-                "pronun_en":"hí<i>ə</i>rou",
+                "pronun_en":"híərou",
                 "pronun_jp":"ヒィアロォゥ",
                 "sentence_en":["Achilles was an ancient Greek hero.","They regarded him as a national hero.","His victory made him a hero.","I don't like novels without heroes.","He was a hero of the war of 1812 against Britain."],
                 "sentence_jp":["アキレスは古代ギリシアの英雄だった。","彼らは彼を国民的英雄と考えた。","その勝利で彼は英雄になった。","私は英雄の出てこない小説は好きじゃない。","彼は1812年の対イギリスでの戦争の英雄だった。"]
@@ -10770,7 +10770,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"無罪の,潔白な,(…を)犯していないで,汚れのない,純潔な,無邪気な,純真な,あどけない,お人よしの,単純な",
-                "pronun_en":"ínəs<i>ə</i>nt",
+                "pronun_en":"ínəsənt",
                 "pronun_jp":"イナァサァントゥ",
                 "sentence_en":["An innocent man was arrested by mistake.","The suspect was innocent of the crime.","It was an innocent question.","He was innocent as a child.","He was deceived by her innocent appearance."],
                 "sentence_jp":["無罪の男が誤って逮捕された。","容疑者はその罪を犯していなかった。","それはどうってことない質問だった。","子供のころ無邪気だった。","彼は彼女の無邪気な外見にだまされた。"]
@@ -10782,7 +10782,7 @@
                 "junior":3,
                 "elementary":1,
                 "meaning":"歴史,史学,歴史書,史書,史劇,(学問・言語などの)発達史,変遷,経歴,来歴,沿革",
-                "pronun_en":"híst<i>ə</i>ri",
+                "pronun_en":"hístəri",
                 "pronun_jp":"ヒィスタァリィ",
                 "sentence_en":["If Cleopatra's nose had been shorter, the history of the world would be different.","We know little of his personal history.","His main interest is in history."],
                 "sentence_jp":["もしもクレオパトラの鼻がもっと低かったら、世界の歴史は変わっていただろう。","彼の履歴についてはほとんど知られていない。","彼の主な興味は史学にある。"]
@@ -11082,7 +11082,7 @@
                 "junior":6,
                 "elementary":2,
                 "meaning":"興味,関心,興味を起こさせるもの,関心事,趣味,興味をそそる力,おもしろさ,興趣,重要(性),重大(性)",
-                "pronun_en":"ínt<i>ə</i>rəst, -tərèst",
+                "pronun_en":"íntərəst, -tərèst",
                 "pronun_jp":"インタァラァストゥ, タァレェストゥ",
                 "sentence_en":["I always read his columns with interest.","I have an interest in photography.","Tom has a wide range of interests.","Find mutual interests, and you will get along with each other.","We must always consider the public interest."],
                 "sentence_jp":["私はいつも彼のコラムを興味をもって読む。","私は写真撮影に興味を持っている。","トムは多趣味だ。","お互いが興味を持てる物を見つければ、旨くやっていけるよ。","私たちは常に公共の利益を考えなければならない。"]
@@ -11106,7 +11106,7 @@
                 "junior":6,
                 "elementary":1,
                 "meaning":"興味を起こさせる,おもしろい",
-                "pronun_en":"ínt<i>ə</i>rəstiŋ, -tərèst-",
+                "pronun_en":"íntərəstiŋ, -tərèst-",
                 "pronun_jp":"インタァラァスティィン（グ）, タァレェストゥ",
                 "sentence_en":["This is an interesting story.","The history of Rome is very interesting.","I found the book very interesting.","This movie is very interesting to me.","It is interesting for me to read my old diary."],
                 "sentence_jp":["これは面白い話だ。","ローマの歴史はとても興味深い。","私はその本を大変面白いと思いました。","この映画は私にとってとても興味深いです。","私は私の古い日記を読むのが楽しい。"]
@@ -11646,7 +11646,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"理想,極致,理想的なもの,典型,崇高な目標",
-                "pronun_en":"aidíː<i>ə</i>l, -díəl",
+                "pronun_en":"aidíːəl, -díəl",
                 "pronun_jp":"アィディィーアル, ディィアル",
                 "sentence_en":["This island has an ideal climate.","That would be ideal.","The new method was anything but ideal.","He is an ideal husband for me.","A light raincoat is ideal for the trip."],
                 "sentence_jp":["この島は理想的な気候である。","それが理想的だろうね。","その新しい方法は理想からほど遠かった。","彼は私にとって理想の夫です。","旅行には、レインコートは軽量なのが理想だ。"]
@@ -12222,7 +12222,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"実験室,試験所,(薬品などの)製造所,(教育・社会科学などで設備の備わった)実習室,演習室,研究室,(大学の課程での)演習,実習",
-                "pronun_en":"lǽb<i>ə</i>rətɔ`ːri, ləbɔ'rət<i>ə</i>ri",
+                "pronun_en":"lǽbərətɔ`ːri, ləbɔ'rətəri",
                 "pronun_jp":"ラァバァラァトォーリィ, ラァボォラァタァリィ",
                 "sentence_en":["He works in the laboratory.","He is carrying out experiments in his laboratory.","The laboratory acquired a fabulous reputation for its historic discovery."],
                 "sentence_jp":["彼はその実験室で働いている。","彼は自分の研究室で実験を行っている。","その研究所はその歴史的な発見によってすばらしい評判を得た。"]
@@ -12930,7 +12930,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"原料,材料,(服などの)生地,資料,データ,用具,道具,人材",
-                "pronun_en":"mətí<i>ə</i>riəl",
+                "pronun_en":"mətíəriəl",
                 "pronun_jp":"マァティィアリィアル",
                 "sentence_en":["Japan depends on imports for raw materials.","The rough material hurt the child's tender skin.","She is collecting material for a book.","Translating this material calls for a lot of patience.","I'm going to make this material into a skirt."],
                 "sentence_jp":["日本は原料を輸入に頼っている。","きめの粗い材質がその子の柔らかい肌を傷つけた。","彼女は本を書くための資料を集めています。","この資料を翻訳するにはたいへんな忍耐を必要とする。","この生地でスカートを作ろうと思っています。"]
@@ -13362,7 +13362,7 @@
                 "junior":1,
                 "elementary":1,
                 "meaning":"記憶,(個人のもつ)記憶力,思い出,追憶,記憶に残る期間,記憶の範囲,死後の名声,記念,記憶(力),記憶容量",
-                "pronun_en":"mém<i>ə</i>ri",
+                "pronun_en":"méməri",
                 "pronun_jp":"メェマァリィ",
                 "sentence_en":["She cherishes the memory of her husband.","I tried to call on my memories of that day.","Tom has a good memory.","It is his constant boast that he has a good memory for names.","Maybe I ought to expand the memory."],
                 "sentence_jp":["彼女は夫の思い出を大切に胸に秘めている。","私はその日の記憶を呼び覚まそうとした。","トムは記憶力がいい。","人の名前をよく覚えているというのが彼のいつもの自慢だ。","メモリ増設しようかな。"]
@@ -13422,7 +13422,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"文学,文芸,文学研究,著述,文筆業,文献,(広告・宣伝用などの)印刷物",
-                "pronun_en":"lít<i>ə</i>rətʃər",
+                "pronun_en":"lítərətʃər",
                 "pronun_jp":"リィタァラァチャ（ル）",
                 "sentence_en":["He majors in English literature.","I'm very interested in classical literature.","We like reading English literature."],
                 "sentence_jp":["彼は英文学を専攻している。","私は古典文学に非常に興味があります。","私たちはイギリスの文学作品を読むのが好きです。"]
@@ -13758,7 +13758,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"(貧困・不幸・病弱などのために)みじめな,不幸な,哀れな,みじめで,みじめな気持ちにさせる,悲惨な,不十分な,粗末な,貧弱な,恥知らずの",
-                "pronun_en":"míz<i>ə</i>rəbl",
+                "pronun_en":"mízərəbl",
                 "pronun_jp":"ミィザァラァブル",
                 "sentence_en":["I was miserable and unhappy.","His life was miserable beyond description.","She died a miserable death."],
                 "sentence_jp":["私はみじめで不幸だった。","彼の生活は言い表すことのできないほど悲惨なものだった。","彼女は悲惨な死に方をした。"]
@@ -14190,7 +14190,7 @@
                 "junior":5,
                 "elementary":4,
                 "meaning":"山,山岳,…山脈,(山ほどの)多数,多量,山のように(高い)",
-                "pronun_en":"máunt<i>ə</i>n",
+                "pronun_en":"máuntən",
                 "pronun_jp":"マァゥンタァン（ヌ）",
                 "sentence_en":["Mt.","I climb mountains because they are there.","The mountain peak was covered with snow.","I saw a chain of mountains.","The girl is getting over mountains of difficulties."],
                 "sentence_jp":["Fuji is the highest mountain in Japan","私は山に登る、なぜならそれがそこにあるからだ。","その山の頂上は雪で覆われていた。","私は山脈を見た。","その少女は山ほどある困難を克服している。"]
@@ -14550,7 +14550,7 @@
                 "junior":1,
                 "elementary":0,
                 "meaning":"神秘的な,神秘に包まれた,不可思議な,なぞの,わけのありそうな,怪しげな",
-                "pronun_en":"mistí<i>ə</i>riəs",
+                "pronun_en":"mistíəriəs",
                 "pronun_jp":"ミィスティィアリィアス",
                 "sentence_en":["There's something mysterious about her.","The human body has a mysterious power to keep itself healthy and sound.","He was suddenly attacked by a mysterious disease."],
                 "sentence_jp":["彼女にはどこか不思議なところがある。","人体にはそれ自体を健康で正常にする神秘的な力がある。","その子は突然わけのわからない病気に襲われた。"]
@@ -14574,7 +14574,7 @@
                 "junior":1,
                 "elementary":0,
                 "meaning":"神秘的なこと,不可解なこと,なぞ,神秘,(小説・映画などの)推理もの,ミステリー,(宗教上の)奥義,秘法,秘訣(ひけつ),秘跡",
-                "pronun_en":"míst<i>ə</i>ri",
+                "pronun_en":"místəri",
                 "pronun_jp":"ミィスタァリィ",
                 "sentence_en":["There are many mysteries in life.","Nature is full of mystery.","Where the treasure is hidden is still a mystery.","I like reading mysteries."],
                 "sentence_jp":["人生には数多くの不可解なことが起こる。","自然は神秘に満ちている。","宝がどこに隠されているかは今なお謎である。","私は推理小説を読むのが好きです。"]
@@ -14658,7 +14658,7 @@
                 "junior":6,
                 "elementary":5,
                 "meaning":"あいた,開いた,あいている,あけた,咲いた,(木や囲いがなく)広々とした,見通しのよい,障害物のない,おおいのない,屋根のない",
-                "pronun_en":"óup<i>ə</i>n",
+                "pronun_en":"óupən",
                 "pronun_jp":"オゥパァン（ヌ）",
                 "sentence_en":["Open the box.","She quickly opened the letter.","That door won't open.","The door opens into the bedroom.","The door opens to the road."],
                 "sentence_jp":["箱を開けて。","すばやく彼女はその手紙を開けた。","そのドアはどうしても開かない。","そのドアは寝室に通じている。","入り口は道路に面している。"]
@@ -14682,7 +14682,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"開くこと,開放,開始,開場,開会,開通,開演,開会式,始まり,第一歩",
-                "pronun_en":"óup<i>ə</i>niŋ",
+                "pronun_en":"óupəniŋ",
                 "pronun_jp":"オゥパァニィン（グ）",
                 "sentence_en":["We're holding an opening sale today.","He will figure on inviting a lot of guests to the opening ceremony.","He finished the opening.","We plunged into the cave opening on our boat and continued on."],
                 "sentence_jp":["本日オープンセールを行っております。","彼は開会式にはたくさんの客を招待することを計画するでしょう。","彼はほんの冒頭部分を書き終えた。","私たちはそのまま洞窟の口にボートで突っ込んで行きました。"]
@@ -14718,7 +14718,7 @@
                 "junior":3,
                 "elementary":1,
                 "meaning":"自然の,自然界の,自然のままの,加工しない,自然の過程による,自然的な,生まれつきの,生得の,普通で,平常で",
-                "pronun_en":"nǽtʃ<i>ə</i>rəl",
+                "pronun_en":"nǽtʃərəl",
                 "pronun_jp":"ナァチャラァル",
                 "sentence_en":["A rainbow is a natural phenomenon.","China is rich in natural resources.","Fatigue is the natural result of overwork.","It is quite natural that he should be angry.","It's natural to be nervous when the plane takes off."],
                 "sentence_jp":["虹は自然現象である。","中国は天然資源に富んでいる。","過労は働き過ぎの当然の結果だ。","彼が怒るのは当たり前だ。","飛行機が離陸するときに緊張するのは当たり前さ。"]
@@ -14742,7 +14742,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"自然に,自然の力で,本来,生まれつき,当然,もちろん,気取らないで,ふだんと変わらずに,飾らないで",
-                "pronun_en":"nǽtʃ<i>ə</i>rəli",
+                "pronun_en":"nǽtʃərəli",
                 "pronun_jp":"ナァチャラァリィ",
                 "sentence_en":["She naturally accepted the invitation.","Naturally he got angry.","You had better speak more naturally.","I tried to act naturally."],
                 "sentence_jp":["もちろん彼女はその招待に応じた。","当然、彼は腹を立てた。","君はもっと普段通りに話す方がよい。","私はいつも通りに行動しようとした。"]
@@ -14862,7 +14862,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"必ず,必然的に,余儀なく,必ずしも(…でない)",
-                "pronun_en":"nèsəsérəli, nésəs<i>ə</i>r-",
+                "pronun_en":"nèsəsérəli, nésəsər-",
                 "pronun_jp":"ネェサァセェラァリィ, ネェサァサァ（ル）",
                 "sentence_en":["As civilization advances, poetry almost necessarily declines.","War necessarily causes unhappiness.","You don't necessarily have to go there."],
                 "sentence_jp":["文明が進むにつれて、詩は殆ど必然的に衰える。","戦争は必ず不幸を招く。","君が必ずしも行く必要はない。"]
@@ -14886,7 +14886,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"必要な,なくてはならない,(…に)必要な,(…が)必要で,必然の,避けがたい",
-                "pronun_en":"nésəsèri, -s<i>ə</i>ri",
+                "pronun_en":"nésəsèri, -səri",
                 "pronun_jp":"ネェサァセェリィ, サァリィ",
                 "sentence_en":["Food is necessary for life.","A passport is usually necessary when you travel overseas.","It is necessary to prepare for the worst."],
                 "sentence_jp":["食生活は生存に必要である。","海外旅行をするとき、普通はパスポートが必要になります。","最悪の事態に備えることが必要です。"]
@@ -14898,7 +14898,7 @@
                 "junior":1,
                 "elementary":0,
                 "meaning":"普通の,通常の,並の,平凡な",
-                "pronun_en":"ɔ'ːrd<i>ə</i>nèri, ɔ'ːrd<i>ə</i>n<i>ə</i>ri",
+                "pronun_en":"ɔ'ːrdənèri, ɔ'ːrdənəri",
                 "pronun_jp":"オー（ル）ダァネェリィ, オー（ル）ダァナァリィ",
                 "sentence_en":["He is just an ordinary person.","That was no ordinary storm.","We lead a very ordinary life.","Don't read evil intentions into the ordinary actions of people around you."],
                 "sentence_jp":["彼はまったく平凡な男だ。","それはとても並の嵐ではなかった。","私達はごくありふれた生活を送っている。","あなたの周りの人々の普通の行いに悪意があると考えてはいけない。"]
@@ -15018,7 +15018,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"もとは,元来,初めは,独創的に",
-                "pronun_en":"ərídʒən<i>ə</i>li",
+                "pronun_en":"ərídʒənəli",
                 "pronun_jp":"アリィヂャナァリィ",
                 "sentence_en":["This poem was originally written in French.","Originally they were farmers.","I was hired originally to do another job.","I'm originally from Boston.","Halloween was originally a Celtic festival."],
                 "sentence_jp":["この詩はもともとフランス語で書かれていた。","彼らはもともと農業をやっていました。","私はもともと他の仕事のために雇われたんです。","私は生まれはボストンです。","ハロウィンは、起源をたどると、ケルト族のお祭りでした。"]
@@ -15330,7 +15330,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"(人に喜びを与える意味で)楽しい,愉快な,気持ちのよい,快適な,楽しい,楽しくて,愉快で,快活な,陽気な,感じのよい",
-                "pronun_en":"pléz<i>ə</i>nt",
+                "pronun_en":"plézənt",
                 "pronun_jp":"プレェザァントゥ",
                 "sentence_en":["I had a pleasant experience on my trip.","It is a pleasant day today.","It was pleasant for Mike to talk to Yumi.","This book is pleasant to read.","The house was pleasant to live in."],
                 "sentence_jp":["私は旅行で楽しい経験をした。","今日は気持ちの良い日だ。","マイクは由美に話し掛けるのがたのしかった。","この本は読んで楽しい。","その家は住むのに快適だった。"]
@@ -15558,7 +15558,7 @@
                 "junior":6,
                 "elementary":1,
                 "meaning":"親,子供がいる人,(動植物の)親,原因となるもの,元",
-                "pronun_en":"pé<i>ə</i>rənt",
+                "pronun_en":"péərənt",
                 "pronun_jp":"ペェアラァントゥ",
                 "sentence_en":["His parents should be firm with him.","Both my parents are at home now.","I live with my parents.","A good coach is like a parent to the players."],
                 "sentence_jp":["親が彼に厳しくしなくては。","私の両親は二人とも今、実家にいます。","私は両親と一緒に住んでいます。","良きコーチはいわば選手の親のようなものだ。"]
@@ -15918,7 +15918,7 @@
                 "junior":1,
                 "elementary":0,
                 "meaning":"(思考・行動・文などの)型,様式,パターン,図案,模様,柄(がら),図形,原型,模型,(洋裁の)型紙",
-                "pronun_en":"pǽtərn, pǽt<i>ə</i>n",
+                "pronun_en":"pǽtərn, pǽtən",
                 "pronun_jp":"パァタァ（ル）ン（ヌ）, パァタァン（ヌ）",
                 "sentence_en":["Global warming will change the patterns of the weather world-wide.","We've gotten into this fixed pattern.","I can see some intricate patterns in the picture."],
                 "sentence_jp":["地球温暖化は世界規模での天候の傾向を変えるであろう。","我々はこれがやめられぬ習慣になってしまった。","その絵には複雑な模様が見える。"]
@@ -16278,7 +16278,7 @@
                 "junior":2,
                 "elementary":2,
                 "meaning":"期間,(歴史上ある特色をもつ)時代,時期,(発達過程の)段階,期,現代,問題としている時代,(授業の)時限,授業時間,(試合の)1区切り",
-                "pronun_en":"pí<i>ə</i>riəd",
+                "pronun_en":"píəriəd",
                 "pronun_jp":"ピィアリィアドゥ",
                 "sentence_en":["A budget is a plan or schedule adjusting expenses during a certain period to the estimated or fixed income for that period.","This custom began in the Edo Period."],
                 "sentence_jp":["予算とは一定期間中の支出を見込まれる収入にあわせた計画です。","この習慣は江戸時代に始まった。"]
@@ -16326,7 +16326,7 @@
                 "junior":0,
                 "elementary":2,
                 "meaning":"個人の,自分の,一身上の,私(わたくし)の,個人にあてた,親展の,(自分が行なう)本人の,直接の,身体の,風采(ふうさい)の",
-                "pronun_en":"pə'ːrs<i>ə</i>nl",
+                "pronun_en":"pə'ːrsənl",
                 "pronun_jp":"パァー（ル）サァンル",
                 "sentence_en":["I was asked for my personal opinion about the matter.","It is our policy not to give out personal information.","This letter is personal, and I don't want anyone else to read it.","It's for my personal use.","She got her daughter a personal computer."],
                 "sentence_jp":["私はそのことについて個人的な意見を求められた。","個人に関する情報は、教えないのが私どもの方針です。","この手紙は個人的なものであり、他の誰にも読まれたくない。","それは私の個人用のものです。","彼女は娘にパソコンを買ってやった。"]
@@ -16350,7 +16350,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"個性,性格,強烈な個性,魅力,強烈な個性の持ち主,(エンターテインメント・スポーツなどで世間に知られている)有名人,名士,タレント,(非難の)個人批評,人身攻撃",
-                "pronun_en":"pə`ːrs<i>ə</i>nǽləti",
+                "pronun_en":"pə`ːrsənǽləti",
                 "pronun_jp":"パァー（ル）サァナァラァティィ",
                 "sentence_en":["He has a nice personality.","She has a strong personality.","Mary has as attractive a personality as her sister.","His sister is a popular TV personality."],
                 "sentence_jp":["彼は性格がよい。","彼女は個性が強い。","メアリーは、姉さんと同じように魅力的な人柄の持ち主である。","彼の妹は人気のテレビタレントだよ。"]
@@ -17754,7 +17754,7 @@
                 "junior":5,
                 "elementary":4,
                 "meaning":"レストラン,料理店,飲食店,(ホテル・劇場などの)食堂",
-                "pronun_en":"rést<i>ə</i>rənt, -rɔ`nt",
+                "pronun_en":"réstərənt, -rɔ`nt",
                 "pronun_jp":"レェスタァラァントゥ, ロォントゥ",
                 "sentence_en":["We had dinner at a restaurant.","Are there any Japanese restaurants near here?","When does the restaurant open?"],
                 "sentence_jp":["私たちはレストランで夕食をとった。","この近くに日本のレストランが何軒かありますか。","レストランはいつ開店しますか。"]
@@ -18006,7 +18006,7 @@
                 "junior":4,
                 "elementary":0,
                 "meaning":"(名目上・表面的でない)真の,本当の,(まがいでない)本物の,天然の,(うわべだけでなく)心からの,(想像・空想でなく)現実の,実際の,実在する,真に迫った,まったくの",
-                "pronun_en":"ríː<i>ə</i>l, ríəl",
+                "pronun_en":"ríːəl, ríəl",
                 "pronun_jp":"リィーアル, リィアル",
                 "sentence_en":["This must be a real diamond.","Make it real.","What's your real purpose?","It seems that the diamond is real.","Comedy is much closer to real life than drama."],
                 "sentence_jp":["これは本物のダイヤに違いない。","本物を追求しろ。","君の本当の目的は何だ。","そのダイヤモンドは本物らしい。","コメディーはドラマよりも現実生活に近い。"]
@@ -18078,7 +18078,7 @@
                 "junior":6,
                 "elementary":4,
                 "meaning":"本当に,実際に,本当に(…というわけではない),より正しくは,本当は,実際には,実のところ,実際,まったく,確かに",
-                "pronun_en":"ríː<i>ə</i>li, ríəli",
+                "pronun_en":"ríːəli, ríəli",
                 "pronun_jp":"リィーアリィ, リィアリィ",
                 "sentence_en":["Tom knows what's really going on.","Did Jerry really win a lottery?","I think I'm really in love for the first time.","I'm really tired.","It was really cheap."],
                 "sentence_jp":["トムは実際に何が起きているのかを知っている。","ジェリーが宝くじに当たったって本当なの？","これが本当の初恋なんだと思う。","くたくたに疲れた。","とても安かったのよ。"]
@@ -19026,7 +19026,7 @@
                 "junior":1,
                 "elementary":0,
                 "meaning":"信号,合図,(野球の)サイン,(…が)合図,信号機,(鉄道の)シグナル,(…の)きっかけ,導火線,(…が)きっかけ,引き金",
-                "pronun_en":"sígn<i>ə</i>l",
+                "pronun_en":"sígnəl",
                 "pronun_jp":"シィグナァル",
                 "sentence_en":["We must pay attention to traffic signals.","The signal turned green.","The ship's captain ordered the radio operator to send a distress signal.","He didn't catch the signal.","He gave us the signal to begin."],
                 "sentence_jp":["交通信号には注意を払わなければならない。","信号が青になった。","船長は無線通信士に遭難信号を打つように命令した。","彼はその合図に気がつかなかった。","彼は私たちに始めるように合図した。"]
@@ -19614,7 +19614,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"(…の)ひと続き,(…の)連続,(出版物の)続き物,双書,シリーズ,(ラジオ・テレビ・映画などの)連続番組,シリーズもの,(貨幣・切手などの)ひとそろい,セット,(野球などの)連続試合",
-                "pronun_en":"sí<i>ə</i>riːz",
+                "pronun_en":"síəriːz",
                 "pronun_jp":"シィアリィーズ",
                 "sentence_en":["All life is a series of activities.","I have had a series of misfortunes since then.","That popular television series is going to spin off two new shows in the fall.","He has just published an interesting series of articles."],
                 "sentence_jp":["人生は全て活動の連続である。","あれ以後は災難続きです。","その人気テレビシリーズが発端となって、秋には二つの番組が制作予定だ。","彼は興味深い一連の論文を発表したところだ。"]
@@ -19638,7 +19638,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"まじめな,本気の,真剣な,冗談でない,真剣で,重大な,ゆゆしい,容易ならない,重い,(娯楽本位でなく)まじめな",
-                "pronun_en":"sí<i>ə</i>riəs",
+                "pronun_en":"síəriəs",
                 "pronun_jp":"シィアリィアス",
                 "sentence_en":["Are you serious?","Be serious.","Now let us get down to a serious talk.","Sam is serious about his work."],
                 "sentence_jp":["本気ですか。","真面目におやり。","さて、本腰を入れてまじめな話をしよう。","サムは仕事に関してまじめです。"]
@@ -19662,7 +19662,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"まじめに,本気で,まじめな話だが,冗談はさておき,重く,ひどく,深刻に",
-                "pronun_en":"sí<i>ə</i>riəsli",
+                "pronun_en":"síəriəsli",
                 "pronun_jp":"シィアリィアスリィ",
                 "sentence_en":["We talked seriously to one another.","She took my joke seriously.","His car was seriously damaged.","He is seriously ill and unlikely to recover."],
                 "sentence_jp":["私達は真剣に話し合った。","彼女は私の冗談を本気にした。","彼の車はひどく壊れた。","彼は重い病気で、回復の見込みはない。"]
@@ -19830,7 +19830,7 @@
                 "junior":4,
                 "elementary":0,
                 "meaning":"いくつかの,数名の,別々の,それぞれの,各自の,いろいろの",
-                "pronun_en":"sév<i>ə</i>rəl",
+                "pronun_en":"sévərəl",
                 "pronun_jp":"セェヴァラァル",
                 "sentence_en":["There are several ways to measure speed.","Several of the reports were missing."],
                 "sentence_jp":["速度を測定する方法はいくつかある。","報告書がいくつか見当たらなかった。"]
@@ -20190,7 +20190,7 @@
                 "junior":6,
                 "elementary":5,
                 "meaning":"いくらかの,多少の,少しの,いくらか,多少,何かの,ある,どこかの,(ある)いくつかの,何人かの",
-                "pronun_en":"s<i>ə</i>m, ((強))sʌ'm",
+                "pronun_en":"səm, ((強))sʌ'm",
                 "pronun_jp":"サァムサァム",
                 "sentence_en":["There are some beautiful roses in the vase.","We must allow for some delay.","Some were late.","Would you like some coffee?","She refused to receive any money."],
                 "sentence_jp":["花瓶には美しいバラの花が生けている。","多少の遅れを考慮しておくのが必要だ。","何人か遅刻した。","コーヒーをいかがですか。","彼女はお金を受け取るのを拒否した。"]
@@ -22062,7 +22062,7 @@
                 "junior":0,
                 "elementary":1,
                 "meaning":"(温度計で測られた)温度,気温,体温,高熱,発熱状態,(心情の)強さ,熱度",
-                "pronun_en":"témp<i>ə</i>rətʃər",
+                "pronun_en":"témpərətʃər",
                 "pronun_jp":"テェンパァラァチャ（ル）",
                 "sentence_en":["His temperature is normal.","Store at room temperature.","Today, the temperature rose as high as 30 degrees Celsius."],
                 "sentence_jp":["彼の体温は正常だ。","常温で保管しなさい。","今日、気温は摂氏30度の高さまで上昇した。"]
@@ -22194,7 +22194,7 @@
                 "junior":1,
                 "elementary":0,
                 "meaning":"旅行者,旅人,旅行家,(地方販売)外交員,セールスマン,ジプシー",
-                "pronun_en":"trǽv<i>ə</i>lər",
+                "pronun_en":"trǽvələr",
                 "pronun_jp":"トゥラァヴァラァ（ル）",
                 "sentence_en":["The traveler reached his destination at last.","The traveler stopped to ask me the way."],
                 "sentence_jp":["旅人はついに目的地にたどり着いた。","旅行客は立ち止まって私に道を尋ねた。"]
@@ -22230,7 +22230,7 @@
                 "junior":6,
                 "elementary":2,
                 "meaning":"…よりも,…するより(むしろ),するくらいなら(いっそ),…よりほかの,…よりほかには,…とは(違った)",
-                "pronun_en":"ð<i>ə</i>n, ((強))ðǽn",
+                "pronun_en":"ðən, ((強))ðǽn",
                 "pronun_jp":"ザァン（ヌ）ザァン（ヌ）",
                 "sentence_en":["He is stronger than I am.","He studies much harder than before.","You're taller than me.","You have bought more postage stamps than are necessary."],
                 "sentence_jp":["彼は私より力が強い。","彼は以前よりもずっと一生懸命に勉強している。","あなたは私よりも背が高い。","君は必要以上に多くの切手を買ってしまった。"]
@@ -22878,7 +22878,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"…まで,…になるまで,に至るまで(ずっと),…までは(…しない),…になって初めて(…する),(…分)前",
-                "pronun_en":"t<i>ə</i>l, ((強))tíl",
+                "pronun_en":"təl, ((強))tíl",
                 "pronun_jp":"タァル, ティィル",
                 "sentence_en":["They stayed in Rome till September.","We talked till after eleven o'clock.","I will wait here till he comes.","He did not return home till midnight.","The food supplies will not hold out till then."],
                 "sentence_jp":["彼らは９月までローマに滞在した。","私たちは１１時すぎまで話した。","彼が来るまでここで待ちます。","彼は真夜中まで家に帰らなかった。","出典 食糧の蓄えはその時までは持たないだろう。 出典"]
@@ -23370,7 +23370,7 @@
                 "junior":0,
                 "elementary":1,
                 "meaning":"高価な,貴重な,大切な,貴重で,役立って,金銭的価値のある,価格を有する",
-                "pronun_en":"vǽlju<i>ə</i>bl",
+                "pronun_en":"vǽljuəbl",
                 "pronun_jp":"ヴァリュゥアブル",
                 "sentence_en":["She has many valuable books.","Antique carpets are especially valuable.","I regard his advice as valuable.","This reference is valuable for my research.","This old vase is valuable to me."],
                 "sentence_jp":["彼女は多くの高価な本を持っている。","骨董品のカーペットは特に価値が高い。","私は彼の忠告を貴重なものだと思っている。","この参考書は私の研究に役立つ。","この古い花瓶は私にとって価値あるものである。"]
@@ -23442,7 +23442,7 @@
                 "junior":1,
                 "elementary":0,
                 "meaning":"さまざまな,いろいろな,個々別々の,いくつかの,種々さまざまの,多数の,多方面の,多角的な,多才な",
-                "pronun_en":"vé<i>ə</i>riəs",
+                "pronun_en":"véəriəs",
                 "pronun_jp":"ヴェアリィアス",
                 "sentence_en":["Air is a mixture of various gases.","Japan imports various raw materials from abroad.","This room is used for various purposes.","Our insurance policy covers various kinds of damages.","Each person has various reasons for going on a trip abroad."],
                 "sentence_jp":["空気はさまざまな気体の混合物である。","日本は海外からさまざまな原材料を輸入している。","この部屋はいろいろな目的に使われる。","我々の保険の範囲は多様な損害に及びます。","人にはそれぞれ外国旅行に行く理由がいろいろある。"]
@@ -23490,7 +23490,7 @@
                 "junior":1,
                 "elementary":4,
                 "meaning":"野菜(物),青物,植物,(意識・思考力を失った)植物人間,無気力な人",
-                "pronun_en":"védʒ<i>ə</i>təbl",
+                "pronun_en":"védʒətəbl",
                 "pronun_jp":"ヴェヂャタァブル",
                 "sentence_en":["Why don't you eat vegetables?","Is a tomato a fruit or a vegetable?","What do you call this vegetable in English?","She cooked vegetable soup for us.","I have a small vegetable garden on my patio."],
                 "sentence_jp":["どうして野菜を食べないの？","トマトは果物ですか、それとも野菜ですか。","この野菜、英語で何ていうの？","彼女は私たちに野菜スープを作ってくれた。","中庭に小さな菜園があります。"]
@@ -23502,7 +23502,7 @@
                 "junior":2,
                 "elementary":1,
                 "meaning":"観光(旅行)者,観光客,旅行家,遠征中のスポーツ選手",
-                "pronun_en":"tú<i>ə</i>rist",
+                "pronun_en":"túərist",
                 "pronun_jp":"トゥゥアリィストゥ",
                 "sentence_en":["I'm a tourist too.","Japanese tourists abroad are big spenders."],
                 "sentence_jp":["私も観光客です。","海外の日本人観光客は大金を使う。"]
@@ -23574,7 +23574,7 @@
                 "junior":0,
                 "elementary":0,
                 "meaning":"勝利,戦勝",
-                "pronun_en":"víkt<i>ə</i>ri",
+                "pronun_en":"víktəri",
                 "pronun_jp":"ヴィクタァリィ",
                 "sentence_en":["I am sure of his victory.","We fought hard for victory.","Our prospects for victory are excellent at the moment.","The match ended in victory for him.","They have won a victory over us."],
                 "sentence_jp":["私は彼の勝利を確信している。","勝利をめざして闘った。","今のところ、私たちが勝つ見込みは十分にある。","試合は彼の勝ちに終わった。","彼らは我々に勝った。"]
@@ -24750,7 +24750,7 @@
                 "junior":1,
                 "elementary":1,
                 "meaning":"…する所はどこでも,…する場合はいつでも,どこに…しようとも",
-                "pronun_en":"hwε<i>ə</i>révər, wεər-",
+                "pronun_en":"hwεərévər, wεər-",
                 "pronun_jp":"レェヴァ（ル）, （ル）",
                 "sentence_en":["You may sit wherever you like.","Wherever you may go, you'll be welcomed.","Wherever did you go?"],
                 "sentence_jp":["何処でも好きなところに座って良い。","どこへ行っても、あなたは歓迎されるだろう。","いったいどこに行ったんだ。"]

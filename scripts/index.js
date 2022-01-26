@@ -3,12 +3,63 @@ function play() {
     audio.play();
 }
 
+let ctx ;
+let myChart;
+
+function draw(freq) {    
+    ctx = document.getElementById('myChart').getContext('2d');
+    myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {        
+            datasets: [{
+                //label: '出現頻度',
+                data: freq,
+                borderColor: [
+                    'blue',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 5,
+                barThickness: 20
+            }],
+            labels: ['綜合', '高', '中', '小']
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins:{
+                legend: {
+                display: false
+                }
+            },
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero:true
+                    }
+                }]
+            }
+        }
+    });
+}
+
 document.addEventListener('DOMContentLoaded', function(){
     const wordObj = selection.getObject();
 
+    let freq = [0,0,0,0];
+    freq[0] = wordObj['frequency'];
+    freq[1] = wordObj['senior'];
+    freq[2] = wordObj['junior'];
+    freq[3] = wordObj['elementary'];
+    
+    draw(freq);
+
     document.querySelector(".each_word h3").textContent = wordObj['word'];
-    document.querySelector(".pron_en").textContent = "[ "+wordObj['pronun_en'].trim()+" ]";
-    document.querySelector(".pron_jp").textContent = "[ "+wordObj['pronun_jp'].trim()+" ]";
+    let eng_pro = wordObj['pronun_en'].split(',');
+    document.querySelector(".pron_en").textContent = "[ "+eng_pro[0].trim()+" ]";
+    let jp_pro = wordObj['pronun_jp'].split(',');
+    document.querySelector(".pron_jp").textContent = "[ "+jp_pro[0].trim()+" ]";
     document.querySelector(".right").textContent = wordObj['meaning'];
 
     src_url =`https://github.com/suyongeum/website/blob/master/audios/${wordObj['word'].charAt(0)}/${wordObj['word']}.mp3?raw=true`;
@@ -41,9 +92,19 @@ document.addEventListener('DOMContentLoaded', function(){
 document.addEventListener('dblclick', function(){
     const wordObj = selection.getObject();
 
+    let freq = [0,0,0,0];
+    freq[0] = wordObj['frequency'];
+    freq[1] = wordObj['senior'];
+    freq[2] = wordObj['junior'];
+    freq[3] = wordObj['elementary'];
+    myChart.data.datasets[0].data = freq;
+    myChart.update();
+
     document.querySelector(".each_word h3").textContent = wordObj['word'];
-    document.querySelector(".pron_en").textContent = "[ "+wordObj['pronun_en'].trim()+" ]";
-    document.querySelector(".pron_jp").textContent = "[ "+wordObj['pronun_jp'].trim()+" ]";
+    let eng_pro = wordObj['pronun_en'].split(',');
+    document.querySelector(".pron_en").textContent = "[ "+eng_pro[0].trim()+" ]";
+    let jp_pro = wordObj['pronun_jp'].split(',');
+    document.querySelector(".pron_jp").textContent = "[ "+jp_pro[0].trim()+" ]";
     document.querySelector(".right").textContent = wordObj['meaning'];
 
     src_url =`https://github.com/suyongeum/website/blob/master/audios/${wordObj['word'].charAt(0)}/${wordObj['word']}.mp3?raw=true`;

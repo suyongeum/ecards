@@ -38,6 +38,7 @@ body {
     Line-height: 20px;
     color: #8e8b8b;
     position: relative;
+    width: 500px;
 }
 
 .words .each_word h3 {
@@ -90,7 +91,7 @@ span.box {
     text-align:left;    
     flex: 0 0 65px; /* do not grow, do not shrink, start at 250px */
     /* border: 1px dashed #00f; */
-    margin: 0 10px 0 0;    
+    margin: 0 5px 0 0;    
 }
 
 .meaning .right {
@@ -118,7 +119,6 @@ span.box {
     text-align: center;
 }
 
-
 .sentence {
     display: flex;
     margin: 2px 0 10px 0;
@@ -128,7 +128,7 @@ span.box {
     text-align: left;
     flex: 0 0 65px; /* do not grow, do not shrink, start at 250px */
     /* border: 1px dashed #00f; */   
-    margin: 0 10px 0 0;     
+    margin: 0 5px 0 0;     
 }
 
 .sentence .right {
@@ -155,4 +155,27 @@ button {
   
 button:focus {
     outline: none;
+}
+
+.graph {
+    width: 150px;
+    height: 150px;
+}
+
+.middle_box {
+    display: flex;
+    margin: 2px 0 10px 0;
+}
+
+.middle_box .pronunciation {
+    text-align: center;
+    flex: 0 0 290px; /* do not grow, do not shrink, start at 250px */
+    /* border: 1px dashed #00f; */   
+    margin: 0 5px 0 0;     
+}
+
+.middle_box .graph {
+    text-align: left;
+    flex: 0 0 150px; /* do not grow, do not shrink, start at 250px */
+    /* border: 1px dashed #00f; */ 
 }

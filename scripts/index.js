@@ -20,10 +20,10 @@ function draw(freq) {
                     'rgba(255, 206, 86, 1)',
                     'rgba(255, 159, 64, 1)'
                 ],
-                borderWidth: 5,
-                barThickness: 20
+                borderWidth: 3,
+                barThickness: 15
             }],
-            labels: ['綜合', '高', '中', '小']
+            labels: ['合', '高', '中', '小']
         },
         options: {
             responsive: true,
@@ -34,11 +34,13 @@ function draw(freq) {
                 }
             },
             scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero:true
-                    }
-                }]
+                y : {
+                    min: 0,
+                    max: 1,
+                },
+                x: { 
+                    labelMaxWidth: 10
+                }
             }
         }
     });
@@ -48,12 +50,23 @@ document.addEventListener('DOMContentLoaded', function(){
     const wordObj = selection.getObject();
 
     let freq = [0,0,0,0];
-    freq[0] = wordObj['frequency'];
-    freq[1] = wordObj['senior'];
-    freq[2] = wordObj['junior'];
-    freq[3] = wordObj['elementary'];
+    freq[0] = wordObj['frequency']/750;//33207;
+    freq[1] = wordObj['senior']/35;
+    freq[2] = wordObj['junior']/6;
+    freq[3] = wordObj['elementary']/5;
     
     draw(freq);
+
+    // let freq_list = [];
+    // const allObj = selection.getAllObject();
+    // allObj.forEach(element => {
+    //     freq_list.push(element['frequency']);
+    // });
+
+    // console.log(arr.mean(freq_list));
+    // console.log(arr.variance(freq_list));
+    // console.log(arr.max(freq_list));
+    // console.log(arr.min(freq_list));
 
     document.querySelector(".each_word h3").textContent = wordObj['word'];
     let eng_pro = wordObj['pronun_en'].split(',');
@@ -93,10 +106,10 @@ document.addEventListener('dblclick', function(){
     const wordObj = selection.getObject();
 
     let freq = [0,0,0,0];
-    freq[0] = wordObj['frequency'];
-    freq[1] = wordObj['senior'];
-    freq[2] = wordObj['junior'];
-    freq[3] = wordObj['elementary'];
+    freq[0] = wordObj['frequency']/750;//33207;
+    freq[1] = wordObj['senior']/35;
+    freq[2] = wordObj['junior']/6;
+    freq[3] = wordObj['elementary']/5;
     myChart.data.datasets[0].data = freq;
     myChart.update();
 

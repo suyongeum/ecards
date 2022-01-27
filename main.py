@@ -11,6 +11,8 @@ import time
 import string
 import shutil
 import glob
+import json
+import matplotlib.pyplot as plt
 
 
 def get_audio():
@@ -467,6 +469,31 @@ def generate_db():
     f_w.write(db)
     f_w.close()  
 
+def data_analysis():
+    file_name  = 'db\senior_high_school_Ewords_json'
+    file_read  = basepath + file_name
+
+    f_r = open(file_read,"r",encoding='utf-8')
+
+    data = json.load(f_r)
+
+    freq   = []
+    senior = []
+    junior = []
+    elementary = []
+    for item in data:
+        freq.append(item['frequency'])
+        senior.append(item['senior'])
+        junior.append(item['junior'])
+        elementary.append(item['elementary'])
+    
+    print(max(freq), max(senior), max(junior), max(elementary))
+
+    plt.scatter(freq, freq)
+    plt.show()
+
+    f_r.close() 
+
 # Press the green button in the gutter to run the script.
 # basepath   = 'D:\projects\ecards\\'         # HOME
 basepath   = 'F:\EDIC_project\ecards\\'     # WORK
@@ -503,8 +530,12 @@ if __name__ == '__main__':
 
     ################################
     # making db without any space
-    generate_db()
+    # generate_db()
 
     ################################
     # audio files save into a directory
     # audio_into_directory()
+
+    ################################
+    # analysis the data
+    data_analysis()

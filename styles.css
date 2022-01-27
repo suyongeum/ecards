@@ -158,8 +158,8 @@ button:focus {
 }
 
 .graph {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 130px;
 }
 
 .middle_box {
@@ -176,6 +176,6 @@ button:focus {
 
 .middle_box .graph {
     text-align: left;
-    flex: 0 0 150px; /* do not grow, do not shrink, start at 250px */
+    flex: 0 0 160px; /* do not grow, do not shrink, start at 250px */
     /* border: 1px dashed #00f; */ 
 }

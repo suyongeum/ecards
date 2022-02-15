@@ -3,28 +3,30 @@
     <head><meta charset="UTF-8">        
         <meta http-equiv="X-UA-Compatible" content="IE=edge">        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">            
-        <title>Document</title>
+        <title>高校英単語:2075</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">   
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="shortcut icon" href="#">  
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>      
     </head>    
-    <body>
-        <div class="wrapper">
-            <h1>English words for High School</h1>
+    <body>            
+            <!-- <div class="title">
+                <h1>English words for High School</h1>
+            </div> -->
             <div class="words">
                 <div class="each_word">
                     <div class="each_word_img">
                         <img src="images/ability_svg.svg" alt="each_word_image">
                     </div>                    
-                    <h3>ability</h3>     
-                    
+                    <h3>ability</h3>  
+                    <hr>                     
                     <div class="middle_box">
                         <div class="pronunciation">                    
                             <div class="pron_en_text">
                                     <button onclick=play()>
-                                        <i class="sound fa fa-volume-up fa-3x" aria-hidden="true"></i>
+                                        <i class="fa fa-volume-up fa-2x" aria-hidden="true"></i>
                                     </button>
                                     <audio id="audio" src="https://github.com/suyongeum/website/blob/master/audios/b/buy.mp3?raw=true"></audio>   
                             </div>           
@@ -37,34 +39,20 @@
                         <div class="graph">
                             <canvas id="myChart"></canvas>
                         </div>
+                    </div>                    
+                    <div class="left">
+                        <span class="box">【意味】</span>
                     </div>
-                    
                     <div class="meaning">
-                        <div class="left">
-                            <span class="box">【意味】</span>
-                        </div>
-                        <div class="right">
-                            capability to do somethingc apabilitycapability to do somethingcapability to do something
-                        </div>
-                    </div>           
-
-                    <div class="sentence">
-                        <div class="left">
-                            <span class="box">【例文】</span>
-                        </div>
-                        <div class="right">                            
-                                <!-- <p class="en">I am a boy</p>
-                                <p class="jp">私は少年です。</p>
-                                <p class="en">You are a girl</p>
-                                <p class="jp">あなたは少女です。</p>                            -->
-                        </div>
+                        capability to do somethingc apabilitycapability to do somethingcapability to do something
                     </div>
-
-                    <!-- <p class="meaning"><span class="box">【意味】</span>capability to do somethingcapabilitycapability to do somethingcapability to do something</p>
-                    <p class="pron_en"><span class="box">【発音】</span>əbíləti、アビィラァティィ</p>      -->
+                    <div class="left">
+                        <span class="box">【例文】</span>
+                    </div>
+                    <div class="sentence">                            
+                    </div>
                 </div>
             </div>
-        </div>
         <p hidden class="db">
             [{"word":"a","frequency":17116,"senior":35,"junior":6,"elementary":5,"meaning":"英語アルファベットの第1字,(連続したものの)第1番目(のもの),A字形(のもの),(5段階評価で)秀,エイ,(ABO式血液型の)A型,イ音,イ調","pronun_en":"éi","pronun_jp":"エィ","sentence_en":["Kumi made a box.","I want to drink a cup of tea.","That's an excellent wine.","Please give me a coffee.","He has a good knowledge of Japanese religion."],"sentence_jp":["クミは箱を作りました。","紅茶を一杯飲みたい。","それは上等のワインだ。","コーヒーください。","彼は日本の宗教に精通している。"]},{"word":"announce","frequency":44,"senior":19,"junior":0,"elementary":0,"meaning":"(…を)(公式に)発表する,知らせる,告知する,披露する,(…を)知らせる,発表する,声明する,(…と)発表する,言う,(…を)発表する","pronun_en":"ənáuns","pronun_jp":"アナァゥンス","sentence_en":["They have announced their engagement.","Tom and Mary announced their engagement to their families.","The Prime Minister announced that he would resign within a few weeks.","He announced my statement to be true.","Mr Smith was announced as the succeeding chairman."],"sentence_jp":["２人は婚約を発表した。","トムとメアリーは双方の両親に婚約を発表した。","首相は数週間以内に辞任すると発表した。","私の申し立ては本当だと彼は発表した。","スミス氏が後任の委員長として発表された。"]},{"word":"ability","frequency":90,"senior":23,"junior":0,"elementary":0,"meaning":"できること,能力,技量,力量,才能","pronun_en":"əbíləti","pronun_jp":"アビィラァティィ","sentence_en":["He is a man of great ability.","I doubt his ability to do the job.","This job is beyond my ability.","He has enough ability to manage a business.","He showed exceptional ability in mathematics."],"sentence_jp":["彼はとても才能のある人です。","彼にはその仕事をする力はないと思う。","この仕事は私の手には負えない。","彼には事業を経営するのに十分な才能がある。","彼は数学に優れた能力を示した。"]},{"word":"another","frequency":544,"senior":33,"junior":6,"elementary":3,"meaning":"もう一つの,別の,ほかの","pronun_en":"ənʌ'ðər","pronun_jp":"アナァザァ（ル）","sentence_en":["He has another son.","John liked that shirt so much that he decided to buy another.","Show me another camera.","Please show me another.","Tom continued to study French for another three years."],"sentence_jp":["彼にはもう一人息子がいる。","ジョンはそのシャツがとても好きだったので、もう１枚買うことを決めた。","別のカメラを見せてください。","別の物を見せてください。","トムはさらに三年間、フランス語の勉強を続けた。"]},{"word":"able","frequency":286,"senior":30,"junior":3,"elementary":0,"meaning":"できて,(…し)えて,(事を行なうのに)有能な,腕ききの,有能な人たち","pronun_en":"éibl","pronun_jp":"エィブル","sentence_en":["He is able to swim very fast.","I was able to catch the last train.","He may be able to come tomorrow.","They won't be able to get up so early.","I want to be able to speak Russian fluently."],"sentence_jp":["彼はとても速く泳ぐことができます。","終電に乗ることが出来た。","彼は明日来ることができるかもしれない。","彼らはそんなに早く起きることはできないだろう。","ロシア語をすらすら話すことができるようになりたい。"]},{"word":"answer","frequency":361,"senior":35,"junior":6,"elementary":3,"meaning":"答える,(…と)答える,答えて言う,(…を)答える,(応じて)出る,応じる,応酬する,(…に)(…で)報いる,聞き入れる,(…に)応じる","pronun_en":"ǽnsər, ɑ'ːn-","pronun_jp":"アンサァ（ル）, アーン（ヌ）","sentence_en":["Even a child can answer it.","He answered that he could swim well.","He didn't try to answer her back.","I cannot answer your request offhand.","I have to answer his letter."],"sentence_jp":["子供でもそれぐらい答えられる。","彼はうまく泳げると答えた。","彼は彼女に言い返そうとはしなかった。","あなたの要求に応じることはできない。","彼の手紙に返事をださなきゃ。"]},{"word":"about","frequency":2350,"senior":35,"junior":6,"elementary":5,"meaning":"…について(の),…に関して,…に対して,…に従事して,…に取りかかって,…のあたりに,…の近くに,…のあちこちに,…の方々に,…ごろ(に)","pronun_en":"əbáut","pronun_jp":"アバァゥトゥ","sentence_en":["I talked about music.","They were about 25 cents a pound cheaper.","This book is about stars.","I have to complete a paper on the Japanese economy.","There are high walls about the town."],"sentence_jp":["私は音楽について話した。","それらは１ポンドにつき２５セント安かった。","これは星についての本です。","日本経済に関する論文を１つ仕上げなくてはならない。","その町のまわりには高い城壁がある。"]},{"word":"any","frequency":485,"senior":35,"junior":6,"elementary":4,"meaning":"どんな…でも,どれでも…,だれでも…,任意の…,どれほどの…でも,無限の,いくらでも,いくつでも,すべての,少しも(…ない)","pronun_en":"əni, ((強))éni","pronun_jp":"アニィ, エニィ","sentence_en":["I do not want any sandwiches.","If you have any interesting books, lend me some.","Do you have any pencils?","It would only take 100 or 500 yen coins, so I search for change but don't find any.","Lend me some money, if you have any."],"sentence_jp":["サンドイッチはいりません。","もし面白い本を持っていましたら、少し貸してください。","君は鉛筆をお持ちですか。","１００円玉か５００円玉しか使えないので私は小銭を探したが見当たらない。","金を持っていたらいくらか貸して下さい。"]},{"word":"above",
 "frequency":102,"senior":23,"junior":1,"elementary":2,"meaning":"…より上に,…より高く,…の上に(出て),…の上流に,…の北の方に,(数量など)…を超える,(地位・身分など)…より上位に,…に優って,…を超えて,…よりむしろ","pronun_en":"əbʌ'v","pronun_jp":"アバァヴ","sentence_en":["Birds are flying above the trees.","The sky above was a deep blue.","The city is fifty miles above London.","The bridge is one mile above.","My grades are above average."],"sentence_jp":["鳥が木の上を飛んでいる。","頭上の空は濃い水色だった。","その町はロンドンの北５０マイルにある。","橋は１マイル上流にある。","私の成績は平均以上だ。"]},{"word":"anybody","frequency":31,"senior":21,"junior":0,"elementary":0,"meaning":"だれでも,だれも,だれか","pronun_en":"énibɑ`di, -bʌ`di, -bɔ`di","pronun_jp":"エニィバァディィ, バァディィ, ボォディィ","sentence_en":["I don't know anybody here in this town.","If anybody comes, tell him that I am out.","Is there anybody who can drive a car?","She refused to meet anybody.","Anybody can participate."],"sentence_jp":["この町には知り合いはいません。","もし誰かが来たら、留守だといってくれ。","誰か車の運転が出来る人はいませんか。","彼女は誰かと会うことを拒否した。","だれでも参加できる。"]},{"word":"abroad","frequency":40,"senior":18,"junior":2,"elementary":0,"meaning":"国外へ,海外へ,広まって,広く,あちこちに","pronun_en":"əbrɔ'ːd","pronun_jp":"アブロォードゥ","sentence_en":["I want to go abroad.","Our company has many clients from abroad.","To study abroad will be a wonderful experience.","The rumor is abroad throughout the town.","There's a rumor abroad that she has got a new job."],"sentence_jp":["海外に行きたい。","我が社には海外からのお客さんが多い。","留学することは素晴らしい経験になるでしょう。","そのうわさは町中に広まっている。","彼女が新しい職についたという噂が流布している。"]},{"word":"anymore","frequency":19,"senior":13,"junior":0,"elementary":0,"meaning":"今は,もはや(…ない,しない)","pronun_en":"ènimɔ'ːr","pronun_jp":"エニィモォー（ル）","sentence_en":["You are not a child anymore.","He doesn't live there anymore.","I won't see him anymore.","Please don't write letters to me anymore."],"sentence_jp":["君はもう子供ではない。","彼は今はもうそこに住んでいない。","もう彼には会いません。","もう私に手紙を書かないでくれ。"]},{"word":"absorb","frequency":19,"senior":11,"junior":0,"elementary":0,"meaning":"吸収する,吸い上げる,消す,やわらげる,緩和する,取り入れる,同化する,吸収合併する,(…に)吸収合併する,奪う","pronun_en":"æbsɔ'ːrb, -zɔ'ːrb, əb-","pronun_jp":"アブソォー（ル）ブ, ゾォー（ル）ブ, アブ","sentence_en":["Cotton absorbs water.","This cloth absorbs water well.","He absorbed new ideas.","Small businesses are often absorbed by a major company.","The empire absorbed all the small states."],"sentence_jp":["綿は水を吸収する。","この布は水をよく吸収する。","彼は新しい思想を吸収した。","小企業は大企業にしばしば、吸収される。","その帝国はすべての小国を併合した。"]},{"word":"anyone","frequency":141,"senior":31,"junior":6,"elementary":3,"meaning":"どれか一つ(の),だれか一人(の)","pronun_en":"éniwʌ`n, -wən","pronun_jp":"エニィワァン（ヌ）, ワァン（ヌ）","sentence_en":["If anyone here can help us, we'd appreciate it.","Is anyone absent today?","She refused to meet anyone.","Anyone can do that."],"sentence_jp":["どなたかにお手伝いいただければ、助かります。","今日は誰か欠席していますか。","彼女は誰かと会うことを拒否した。","誰でもそれはできる。"]},{"word":"accept","frequency":125,"senior":27,"junior":0,"elementary":0,"meaning":"(進んで)受け入れる,受納する,引き受ける,受諾する,不本意ながら認める,甘受する,(学生・会員などとして)受け入れる,認める,信ずる,容認する","pronun_en":"æksépt, ək-","pronun_jp":"アクセェプトゥ, アク","sentence_en":["She accepted his gift.","I accepted his invitation.","You shouldn't accept candy from strangers.","Our school accepted three Americans as exchange students.","They accepted her into the club."],"sentence_jp":["彼女は彼の贈り物を受け取った。","私は彼の招待に応じた。","知らない人からお菓子をもらわない方がいいよ。","私たちの学校は3人のアメリカ人を交換留学生として受け入れた。","彼らは彼女をクラブに受け入れた。"]},{"word":"anything","frequency":253,"senior":31,"junior":6,"elementary":2,"meaning":"何でも,何も(…ない),何か","pronun_en":"éniθìŋ","pronun_jp":"エニィシィン（グ）","sentence_en":["You won't find anything here.","If you need anything, let me know.","Would you like to add anything to what I've said?","She refused to receive anything.","I'll do anything."],"sentence_jp":["ここでは何も見つからないでしょうよ。","何か必要なら、私に知らせて下さい。","何か付け加えたいことはありますか。","彼女は何かを受け取ることを拒否した。","何でもするから。"]},{"word":"access","frequency":17,"senior":13,"junior":0,"elementary":0,

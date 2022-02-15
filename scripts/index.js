@@ -20,12 +20,13 @@ function draw(freq) {
                     'rgba(255, 206, 86, 1)',
                     'rgba(255, 159, 64, 1)'
                 ],
-                borderWidth: 3,
-                barThickness: 15
+                borderWidth: 5,
+                barThickness: 10
             }],
-            labels: ['合', '高', '中', '小']
+            labels: ['高', '中', '小']
         },
         options: {
+            indexAxis: 'y',
             responsive: true,
             maintainAspectRatio: false,
             plugins:{
@@ -34,12 +35,9 @@ function draw(freq) {
                 }
             },
             scales: {
-                y : {
+                x : {
                     min: 0,
                     max: 1,
-                },
-                x: { 
-                    labelMaxWidth: 10
                 }
             }
         }
@@ -49,11 +47,11 @@ function draw(freq) {
 document.addEventListener('DOMContentLoaded', function(){
     const wordObj = selection.getObject();
 
-    let freq = [0,0,0,0];
-    freq[0] = wordObj['frequency']/750;//33207;
-    freq[1] = wordObj['senior']/35;
-    freq[2] = wordObj['junior']/6;
-    freq[3] = wordObj['elementary']/5;
+    let freq = [0,0,0];
+    //freq[0] = wordObj['frequency']/750;//33207;
+    freq[0] = wordObj['senior']/46;
+    freq[1] = wordObj['junior']/46;
+    freq[2] = wordObj['elementary']/46;
     
     draw(freq);
 
@@ -73,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function(){
     document.querySelector(".pron_en").textContent = "[ "+eng_pro[0].trim()+" ]";
     let jp_pro = wordObj['pronun_jp'].split(',');
     document.querySelector(".pron_jp").textContent = "[ "+jp_pro[0].trim()+" ]";
-    document.querySelector(".right").textContent = wordObj['meaning'];
+    document.querySelector(".meaning").textContent = wordObj['meaning'];
 
     src_url =`https://github.com/suyongeum/website/blob/master/audios/${wordObj['word'].charAt(0)}/${wordObj['word']}.mp3?raw=true`;
     document.querySelector("audio").setAttribute('src', src_url); //  .textContent = src_url;
@@ -81,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function(){
     let length = wordObj['sentence_en'].length;
     let sentence_en = '';
     let sentence_jp = '';
-    let div_sentence = document.querySelector(".sentence .right");
+    let div_sentence = document.querySelector(".sentence");
 
     for(let i=0; i<length; i++) {
         sentence_en = (wordObj['sentence_en'])[i];
@@ -105,11 +103,11 @@ document.addEventListener('DOMContentLoaded', function(){
 document.addEventListener('dblclick', function(){
     const wordObj = selection.getObject();
 
-    let freq = [0,0,0,0];
-    freq[0] = wordObj['frequency']/750;//33207;
-    freq[1] = wordObj['senior']/35;
-    freq[2] = wordObj['junior']/6;
-    freq[3] = wordObj['elementary']/5;
+    let freq = [0,0,0];
+    //freq[0] = wordObj['frequency']/750;//33207;
+    freq[0] = wordObj['senior']/46;///35;
+    freq[1] = wordObj['junior']/46;///6;
+    freq[2] = wordObj['elementary']/46;///5;
     myChart.data.datasets[0].data = freq;
     myChart.update();
 
@@ -118,7 +116,7 @@ document.addEventListener('dblclick', function(){
     document.querySelector(".pron_en").textContent = "[ "+eng_pro[0].trim()+" ]";
     let jp_pro = wordObj['pronun_jp'].split(',');
     document.querySelector(".pron_jp").textContent = "[ "+jp_pro[0].trim()+" ]";
-    document.querySelector(".right").textContent = wordObj['meaning'];
+    document.querySelector(".meaning").textContent = wordObj['meaning'];
 
     src_url =`https://github.com/suyongeum/website/blob/master/audios/${wordObj['word'].charAt(0)}/${wordObj['word']}.mp3?raw=true`;
     document.querySelector("audio").setAttribute('src', src_url); //  .textContent = src_url;
@@ -126,7 +124,7 @@ document.addEventListener('dblclick', function(){
     let length = wordObj['sentence_en'].length;
     let sentence_en = '';
     let sentence_jp = '';
-    let div_sentence = document.querySelector(".sentence .right");
+    let div_sentence = document.querySelector(".sentence");
     div_sentence.innerHTML = '';
     
     for(let i=0; i<length; i++) {

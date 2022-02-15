@@ -1,56 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans&display=swap');
-
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     background: #81c644;
 }
 
-.wrapper {
-    margin-top: 5%;
+.title {
+    text-align: center; 
+    margin-bottom: 70px;
+    margin-top: 20px;   
 }
 
-.wrapper h1 {
-    font-family: 'Allura', cursive;
-    font-size: 30px;
-    margin-bottom: 60px;
-    text-align: center;
+h1 {
+    /* font-family: 'Allura', cursive; */
+    font-size: 35px;
 }
 
 .words {
     display: flex;
-    text-align: center;
-    width: auto;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
-.each_word {
+.each_word {    
     background: #fff;
-    margin: 5px 5%;
-    margin-bottom: 100px;
-    word-wrap: 300px;
-    padding: 15px;
-    Line-height: 20px;
-    color: #8e8b8b;
-    position: relative;
-    width: 500px;
-}
-
-.words .each_word h3 {
-    color: #81c644;
-    font-size: 80px;
+    padding: 20px;
+    width: 480px;
     margin-top: 50px;
-    margin: 20px 5px 10px 5px;
 }
 
-.words .each_word p {
-    text-align: left;
-    font-size: 20px;
+.each_word_img {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);  
+
+    width: 130px;
+    padding: 10px;
+    border-radius:45%;
+
+    background: #fff;
+}
+
+.each_word h3 {
+    color: #81c644;
+    text-align: center;
+    /* font-size: 9vw; */
+    font-size: 70px;
+    margin-top: 25px;
 }
 
 span.box {
@@ -58,124 +56,105 @@ span.box {
     color: #fff;
     font-size: 15px;
     font-weight: normal;
-    margin: 0 3px 0 0;
-    padding: 0px 1px 1px 1px; !important;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 2px;
+    padding: 1px 2px;
+    border-radius: 5px;
 }
 
-.words .each_word .each_word_img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -50px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #fff;
+/* Meaning and example sentences */
+
+.left {
+    margin: 20px 0 5px 0;
 }
 
-.words .each_word .each_word_img img {
-    width: 100px;
-    height: 100px;
-    padding: 0px;
-}
-
-.meaning {
-    display: flex;
-    margin: 2px 0 10px 0;
-}
-
-.meaning .left {    
-    text-align:left;    
-    flex: 0 0 65px; /* do not grow, do not shrink, start at 250px */
-    /* border: 1px dashed #00f; */
-    margin: 0 5px 0 0;    
-}
-
-.meaning .right {
+.sentence .en {
     font-size: 18px;
-    text-align: left;
-    flex:  1;  /* grow */
-    /* border: 1px dashed #f0f; */
-    position:relative;
-    top:-2px;    
-    margin: 1px 10px 10px 0;
-    line-height: 150%;
-}
-
-.pron_en .audioicon {
-    margin: 0px 1px 0px 0px;
-}
-
-.pron_en {
-    margin: 5px 0 10px 0;
-    text-align: center;
-    font-size: 20px;
-}
-.pron_jp {
-    margin: 5px 0 20px 0;
-    text-align: center;
-}
-
-.sentence {
-    display: flex;
-    margin: 2px 0 10px 0;
-}
-
-.sentence .left {
-    text-align: left;
-    flex: 0 0 65px; /* do not grow, do not shrink, start at 250px */
-    /* border: 1px dashed #00f; */   
-    margin: 0 5px 0 0;     
-}
-
-.sentence .right {
-    text-align: left;
-    flex: 1;  /* grow */
-    /* border: 1px dashed #f0f; */
-}
-
-.sentence .right .en {
     margin-bottom: 2px;
-    font-size: 18px;
     color:rgb(9, 10, 51);
+    line-height: 20px;
 }
 
-.sentence .right .jp {
-    margin-bottom: 5px;
-    font-size: 14px; 
+.sentence .jp {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color:rgb(80, 79, 80);
 }
 
-button {
-    background: transparent;
-    border: none;
-  }
+/* Pronunciation + statistics */
   
-button:focus {
-    outline: none;
-}
-
-.graph {
-    width: 160px;
-    height: 130px;
-}
-
 .middle_box {
     display: flex;
-    margin: 2px 0 10px 0;
+    justify-content: space-between;
+}
+
+.middle_box div {
+    border: 0px #ccc solid;    
 }
 
 .middle_box .pronunciation {
+    flex-basis:66%;
     text-align: center;
-    flex: 0 0 290px; /* do not grow, do not shrink, start at 250px */
-    /* border: 1px dashed #00f; */   
-    margin: 0 5px 0 0;     
+    height:110px;
 }
 
 .middle_box .graph {
-    text-align: left;
-    flex: 0 0 160px; /* do not grow, do not shrink, start at 250px */
-    /* border: 1px dashed #00f; */ 
+    width:33%;
+    height:110px;
+}
+
+.pron_en_text {
+    margin: 0;
+    padding: 0px;
+}
+
+button {
+    border-radius: 40%;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+}
+
+.pron_en {
+    margin: 0;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.pron_jp {
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.graph {
+    padding: 0px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+  } 
+
+@media only screen and (max-width: 480px) {
+    .each_word h3 {
+        font-size: 50px;
+        margin: 30px 5px 10px;
+    }
+    h1 {        
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .words {
+        overflow-x: scroll;
+        overflow-y: scroll;
+    }
+    .title {
+        overflow-x: scroll;
+        overflow-y: scroll; 
+    }
 }

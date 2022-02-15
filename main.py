@@ -481,11 +481,16 @@ def data_analysis():
     senior = []
     junior = []
     elementary = []
+    words = []
     for item in data:
         freq.append(item['frequency'])
         senior.append(item['senior'])
         junior.append(item['junior'])
         elementary.append(item['elementary'])
+        words.append(item['word'])
+    
+    longest_string = max(words, key=len)
+    print(longest_string)
     
     print(max(freq), max(senior), max(junior), max(elementary))
 

@@ -1,73 +1,160 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans&display=swap');
-
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     background: #81c644;
-    font-family: 'Allura', cursive;
-    font-family: 'Josefin Sans', sans-serif;
 }
 
-.wrapper {
-    margin-top: 10%;
+.title {
+    text-align: center; 
+    margin-bottom: 70px;
+    margin-top: 20px;   
 }
 
-.wrapper h1 {
-    font-family: 'Allura', cursive;
-    font-size: 52px;
-    margin-bottom: 60px;
-    text-align: center;
+h1 {
+    /* font-family: 'Allura', cursive; */
+    font-size: 35px;
 }
 
 .words {
     display: flex;
-    text-align: center;
-    width: auto;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
-.words .each_word {
+.each_word {    
     background: #fff;
-    margin: 5px;
-    margin-bottom: 50px;
-    word-wrap: 300px;
     padding: 20px;
-    Line-height: 20px;
-    color: #8e8b8b;
-    position: relative;
-}
-
-.words .each_word h3 {
-    color: #81c644;
-    font-size: 26px;
+    width: 480px;
     margin-top: 50px;
 }
 
-.words .each_word p.meaning {
-    color: #ccc;
-    font-size: 12px;
-    text-transform: uppercase;
-    margin: 12px 0;
-}
-
-.words .each_word .each_word_img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.each_word_img {
     position: absolute;
-    top: -50px;
+    top: 10px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%);  
+
+    width: 130px;
+    padding: 10px;
+    border-radius:45%;
+
     background: #fff;
 }
 
-.words .each_word .each_word_img img {
-    width: 100px;
-    height: 100px;
+.each_word h3 {
+    color: #81c644;
+    text-align: center;
+    /* font-size: 9vw; */
+    font-size: 70px;
+    margin-top: 25px;
+}
+
+span.box {
+    background-color: #6d635d;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 1px 2px;
+    border-radius: 5px;
+}
+
+/* Meaning and example sentences */
+
+.left {
+    margin: 20px 0 5px 0;
+}
+
+.sentence .en {
+    font-size: 18px;
+    margin-bottom: 2px;
+    color:rgb(9, 10, 51);
+    line-height: 20px;
+}
+
+.sentence .jp {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color:rgb(80, 79, 80);
+}
+
+/* Pronunciation + statistics */
+  
+.middle_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle_box div {
+    border: 0px #ccc solid;    
+}
+
+.middle_box .pronunciation {
+    flex-basis:66%;
+    text-align: center;
+    height:110px;
+}
+
+.middle_box .graph {
+    width:33%;
+    height:110px;
+}
+
+.pron_en_text {
+    margin: 0;
     padding: 0px;
+}
+
+button {
+    border-radius: 40%;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+}
+
+.pron_en {
+    margin: 0;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.pron_jp {
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.graph {
+    padding: 0px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+  } 
+
+@media only screen and (max-width: 480px) {
+    .each_word h3 {
+        font-size: 50px;
+        margin: 30px 5px 10px;
+    }
+    h1 {        
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .words {
+        overflow-x: scroll;
+        overflow-y: scroll;
+    }
+    .title {
+        overflow-x: scroll;
+        overflow-y: scroll; 
+    }
 }

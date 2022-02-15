@@ -8,6 +8,11 @@ import pdfplumber
 import io
 import random
 import time
+import string
+import shutil
+import glob
+import json
+import matplotlib.pyplot as plt
 
 
 def get_audio():
@@ -272,8 +277,6 @@ def check_directory():
 
 def check_words():
 
-    spell = SpellChecker()
-
     db_word = make_db()
 
     list_words = []
@@ -390,32 +393,27 @@ def icons8com():
     # https://freeicons.io/
     # icons8.com
 
-    MAX = 10
-    #########################################
-    # First: get the word list
-
     db_word = make_db()
 
     for word in db_word:
 
-        word = 'ability'
+        # # Second: search ids
+        # url = "https://search.icons8.com/api/iconsets/v5/search?term=" + word +"&token=eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf"
+        # headers={'x-api-key':'eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf'}
+        # resp = requests.get(url,headers=headers)
 
-        # Second: search ids
-        url = "https://search.icons8.com/api/iconsets/v5/search?term=" + word +"&token=eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf"
-        headers={'x-api-key':'eVahCKnqVkgFJTwJ5xZmXPL6JN2OV6TwfIauZXIf'}
-        resp = requests.get(url,headers=headers)
-
-        ids = []
-        for item in resp.json()["icons"]:
-            ids.append(item["id"])
+        # ids = []
+        # for item in resp.json()["icons"]:
+        #     ids.append(item["id"])
     
-        if resp.status_code == 200:
-            print('success')
-        else:
-            return 0
+        # if resp.status_code == 200:
+        #     print('success')
+        # else:
+        #     return 0
 
+        # requests
 
-        for image_id in ids:
+        for image_id in ['9bLZQZMri5Xi']:#ids:
 
             #image_id = '9bLZQZMri5Xi'
 
@@ -425,10 +423,6 @@ def icons8com():
 
             if resp.status_code == 200:
                 image           = resp.json()["icon"]["svg"]
-
-                print (len(image))
-
-
                 file_write      = basepath + 'images\\' + word  + "_" + image_id + '.svg'
                 f_w             = open(file_write, "w")
                 f_w.write(image)
@@ -438,9 +432,72 @@ def icons8com():
 
     return 0
 
-def generate_html():
+def audio_into_directory():
 
+    path_to_audio = basepath + "audios\\";
+
+    for i in string.ascii_lowercase:
+        path        = os.path.join(path_to_audio, i)
+        os.mkdir(path)
+        #print(path)
+        source      = glob.glob(path_to_audio + str(i) + "*.mp3")
+        destination = path
+        for src in source:
+            shutil.move(src,destination)
+            #print(src, destination)
+    
     return 0
+
+def generate_db():
+    
+    file_name  = 'db\senior_high_school_Ewords_json'
+    file_read  = basepath + file_name
+
+    f_r = open(file_read,"r",encoding='utf-8')
+    lines = f_r.readlines()
+
+    db = ''
+    index = 1
+    for line in lines:
+        db = db + line.rstrip().lstrip()
+        index = index + 1
+        if index % 100 == 0:
+            db = db + '\n'
+    
+    file_write  = basepath + 'db\senior_high_school_Ewords_json_no_space'
+    f_w = open(file_write, "w", encoding="utf-8")
+    f_w.write(db)
+    f_w.close()  
+
+def data_analysis():
+    file_name  = 'db\senior_high_school_Ewords_json'
+    file_read  = basepath + file_name
+
+    f_r = open(file_read,"r",encoding='utf-8')
+
+    data = json.load(f_r)
+
+    freq   = []
+    senior = []
+    junior = []
+    elementary = []
+    words = []
+    for item in data:
+        freq.append(item['frequency'])
+        senior.append(item['senior'])
+        junior.append(item['junior'])
+        elementary.append(item['elementary'])
+        words.append(item['word'])
+    
+    longest_string = max(words, key=len)
+    print(longest_string)
+    
+    print(max(freq), max(senior), max(junior), max(elementary))
+
+    plt.scatter(freq, freq)
+    plt.show()
+
+    f_r.close() 
 
 # Press the green button in the gutter to run the script.
 # basepath   = 'D:\projects\ecards\\'         # HOME
@@ -474,8 +531,16 @@ if __name__ == '__main__':
 
     ################################
     # icon8s.com image API
-    icons8com()
+    # icons8com()
 
     ################################
-    # html generation
-    # generate_html()
+    # making db without any space
+    # generate_db()
+
+    ################################
+    # audio files save into a directory
+    # audio_into_directory()
+
+    ################################
+    # analysis the data
+    data_analysis()

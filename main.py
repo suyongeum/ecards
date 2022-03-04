@@ -1,6 +1,7 @@
 from gtts import gTTS
 import os
 import urllib.request
+from matplotlib import projections
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -13,7 +14,11 @@ import shutil
 import glob
 import json
 import matplotlib.pyplot as plt
-
+import gensim
+from gensim.models import Word2Vec,KeyedVectors
+import numpy as np
+from sklearn.decomposition import PCA
+from sklearn.metrics import pairwise_distances
 
 def get_audio():
 
@@ -35,6 +40,21 @@ def get_audio():
         speech.save(file_name)
         #print(file_name)
 
+def read_json():
+    file_name  = 'db\senior_high_school_Ewords_json'
+    file_read  = basepath + file_name
+
+    whole_json = ""
+    with open(file_read,"r",encoding='utf-8') as f:
+        lines = f.readlines()
+        for line in lines:
+            whole_json = whole_json + line
+        data = json.loads(whole_json)
+        words = []
+        for item in data:
+            words.append(item['word'])
+    return words
+ 
 def make_db():
 
     file_name  = 'db\senior_high_school_Ewords_db'
@@ -499,6 +519,70 @@ def data_analysis():
 
     f_r.close() 
 
+def convert_w2v():
+    W2VDB = 'D:\W2VDB\GoogleNews-vectors-negative300.bin.gz'
+    model = KeyedVectors.load_word2vec_format(W2VDB,binary=True,limit=100000)
+
+    db = read_json()
+    db_vector = []
+
+    null_vector = np.zeros(300)
+    
+    for item in db:
+        if item in model.index_to_key:
+            db_vector.append(model[item])
+        else:
+            db_vector.append(null_vector)
+            print(item)
+
+    return db_vector, db
+       
+    # pca2 = PCA(n_components=3)
+    # pc   = pca2.fit_transform(db_vector)
+    
+    # x = []
+    # y = []
+    # z = []
+    # for item in pc:
+    #     x.append(item[0])
+    #     y.append(item[1])
+    #     z.append(item[2])
+
+    # # fig = plt.figure()
+    # # ax  = fig.add_subplot(111, projection='3d')
+
+    # # ax.scatter(x, y, z)
+
+    # plt.scatter(x,y)
+
+    # plt.show()
+
+def distance_matrix():
+    file_name   = 'db\distance_matrix'
+    file_write  = basepath + file_name
+
+    w2v_db, words = convert_w2v()
+
+    result = pairwise_distances(w2v_db)
+
+    f_w = open(file_write,"w",encoding='utf-8')
+
+    x = 1
+    y = 1
+    for item in result:
+        for i in item:
+            if x > y:
+                i = int(round(round(i,2)*100, 0))
+                #i = round(i,2)
+                f_w.write(str(i)+' ')
+            x = x + 1
+        y = y + 1
+        x = 1
+        f_w.write('\n')
+    f_w.close()
+
+
+
 # Press the green button in the gutter to run the script.
 # basepath   = 'D:\projects\ecards\\'         # HOME
 basepath   = 'F:\EDIC_project\ecards\\'     # WORK
@@ -543,4 +627,10 @@ if __name__ == '__main__':
 
     ################################
     # analysis the data
-    data_analysis()
+    # data_analysis()
+
+    ################################
+    # W2V clustering 
+    # convert_w2v()
+    # clustering()
+    distance_matrix()
